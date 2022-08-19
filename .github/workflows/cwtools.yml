@@ -1,50 +1,20 @@
 name: CWTools CI
 
-on:
-  workflow_dispatch:
-    inputs:
-      logLevel:
-        description: 'Log level'     
-        required: true
-        default: 'warning'
-  push:
-    branches:    
-    - master
-    paths:
-    - '*/**/*.txt'
-    - '*/**/*.yml'
-    - '*/**/*.gfx'
-    - '*/**/*.gui'
-    - 'localisation/**'
-    - '!.*/**'
-    - '!tutorial/**'
-    - '!changelog.txt'
-    - '!interface/credits.txt'
-  pull_request:
-    paths:
-    - '*/**/*.txt'
-    - '*/**/*.yml'
-    - '*/**/*.gfx'
-    - '*/**/*.gui'
-    - 'localisation/**'
-    - '!.*/**'
-    - '!tutorial/**'
-    - '!changelog.txt'
-    - '!interface/credits.txt'
-  
+on: [pull_request, push, workflow_dispatch] # other events may work but are not supported
+
 jobs:
   cwtools_job:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v1 # required
     - uses: cwtools/cwtools-action@v1.0.0
       with:
         game: ck2
-        locLanguages: "english" 
+        modPath: "avatar - four nations restored"
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    - name: Upload output.json
-      if: always()
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # required, secret is automatically set by github
+    - name: Upload artifact
+      if: always() # so even if the check fails, the log is uploaded
       uses: actions/upload-artifact@v1.0.0
       with:
         name: cwtools_output
