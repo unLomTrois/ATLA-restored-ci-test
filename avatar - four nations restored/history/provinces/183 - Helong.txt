@@ -1,0 +1,24 @@
+# c_helong
+
+# County Title
+title = c_helong
+
+# Settlements
+max_settlements = 3
+
+b_sangil = castle
+#b_gaoda_de_tudi = city
+b_helong = temple
+
+# Misc
+culture = eastern_earth
+religion = earth_spirituality
+terrain = forest
+
+#History
+564.5.19 = { b_gaoda_de_tudi = city }
+#923.2.12 = { religion = fire_nation_imperialism }
+#923.2.12 = { culture = colonial }
+#925.1.4 = { religion = earth_spirituality }
+#925.1.4 = { culture = eastern_earth }
+1002.5.3 = { religion = unificationism }

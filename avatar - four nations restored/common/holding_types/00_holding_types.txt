@@ -1,0 +1,163 @@
+castle = {
+	trigger = {
+	}
+}
+
+city = {
+	trigger = {
+	}
+}
+
+temple = {
+	trigger = {
+	}
+}
+
+trade_post = {
+	trigger = {
+		conditional_tooltip = {
+			trigger = {
+				trade_route = southern_earth_trade_route
+				OR = {
+					FROM = {
+						is_patrician = no
+					}
+					AND = {
+						port = no
+						FROM = {
+							is_patrician = yes
+						}
+					}
+				}
+			}
+			southern_earth_trade_post_trigger = yes
+		}
+		conditional_tooltip = {
+			trigger = {
+				trade_route = northern_earth_trade_route
+				OR = {
+					FROM = {
+						is_patrician = no
+					}
+					AND = {
+						port = no
+						FROM = {
+							is_patrician = yes
+						}
+					}
+				}
+			}
+			northern_earth_trade_post_trigger = yes
+		}
+		conditional_tooltip = {
+			trigger = {
+				trade_route = eastern_earth_trade_route
+				OR = {
+					FROM = {
+						is_patrician = no
+					}
+					AND = {
+						port = no
+						FROM = {
+							is_patrician = yes
+						}
+					}
+				}
+			}
+			eastern_earth_trade_post_trigger = yes
+		}
+		conditional_tooltip = {
+			trigger = {
+				trade_route = western_earth_trade_route
+				OR = {
+					FROM = {
+						is_patrician = no
+					}
+					AND = {
+						port = no
+						FROM = {
+							is_patrician = yes
+						}
+					}
+				}
+			}
+			western_earth_trade_post_trigger = yes
+		}
+		conditional_tooltip = {
+			trigger = {
+				trade_route = water_tribes_trade_route
+				OR = {
+					FROM = {
+						is_patrician = no
+					}
+					AND = {
+						port = no
+						FROM = {
+							is_patrician = yes
+						}
+					}
+				}
+			}
+			water_tribes_trade_post_trigger = yes
+		}
+		conditional_tooltip = {
+			trigger = {
+				trade_route = fire_island_trade_route
+				OR = {
+					FROM = {
+						is_patrician = no
+					}
+					AND = {
+						port = no
+						FROM = {
+							is_patrician = yes
+						}
+					}
+				}
+			}
+			fire_island_trade_post_trigger = yes
+		}
+		conditional_tooltip = {
+			trigger = {
+				trade_route = si_wong_trail
+				OR = {
+					FROM = {
+						is_patrician = no
+					}
+					AND = {
+						port = no
+						FROM = {
+							is_patrician = yes
+						}
+					}
+				}
+			}
+			si_wong_trail_trade_post_trigger = yes
+		}
+	}
+}
+
+family_palace = {
+	trigger = {
+	}
+}
+
+tribal = {
+	trigger = {
+	}
+}
+
+nomad = {
+	trigger = {
+	}
+}
+
+fort = {
+	trigger = {
+	}
+}
+
+hospital = {
+	trigger = {
+	}
+}

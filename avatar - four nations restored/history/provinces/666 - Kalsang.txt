@@ -1,0 +1,25 @@
+# c_kalsang
+
+# County Title
+title = c_kalsang
+
+# Settlements
+max_settlements = 1
+
+b_jangchup = temple
+
+# Misc
+culture = southern_air_nomad
+religion = air_spirituality
+
+#History
+830.2.13 = { 
+	religion = earth_spirituality 
+	culture = earth_islander 
+	b_jangchup = tribal 
+}
+934.8.14 = { 
+	religion = air_acolytism 
+	culture = air_acolytes 
+	b_jangchup = temple 
+}

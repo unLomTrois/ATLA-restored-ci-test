@@ -1,0 +1,26 @@
+# c_nyingpo
+
+# County Title
+title = c_nyingpo
+
+# Settlements
+max_settlements = 2
+
+b_nyingpo = temple
+#b_lhundrua = city
+
+# Misc
+culture = eastern_air_nomad
+religion = air_spirituality
+
+#History
+830.3.13 = { 
+	religion = earth_spirituality 
+	culture = earth_islander 
+	b_nyingpo = tribal
+}
+933.7.21 = { 
+	religion = air_acolytism 
+	culture = air_acolytes 
+	b_nyingpo = temple
+}

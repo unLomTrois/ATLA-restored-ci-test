@@ -1,0 +1,3069 @@
+### ATLA Landed Titles
+
+e_air_nomads = {
+	color = { 255 102 0 }
+	color2 = { 255 255 20 }
+
+	capital = 31 # c_southern_air_temple
+	short_name = yes
+	culture = southern_air_nomad
+	
+	air_acolytes = "Air Nation"
+	new_air_nation = "Air Nation"
+	
+	allow = {
+		culture_group = air_nomad_culture
+	}
+
+	k_southern_air_temple = {
+		color = { 255 120 30 }
+		color2 = { 255 255 255 }
+
+		capital = 31 # c_southern_air_temple
+		culture = southern_air_nomad
+		short_name = yes
+		
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					ai = no
+					culture_group = air_nomad_culture
+				}
+			}
+		}
+
+		d_southern_air_islands = {
+			color = { 202 204 35 }
+			color2 = { 255 255 255 }
+			
+			fire_nation = "Southern Archipelago"
+			
+			capital = 31 # c_southern_air_temple
+
+			c_southern_air_temple = { # 31
+				color = { 212 194 40 }
+				color2 = { 255 255 255 }
+
+				holy_site = air_spirituality
+				holy_site = air_spirituality_reformed
+				holy_site = nomadic_nihilism
+				holy_site = nomadic_nihilism_reformed
+				holy_site = air_acolytism
+				holy_site = air_acolytism_reformed
+				holy_site = neo-nomadism
+				holy_site = neo-nomadism_reformed
+
+				b_southern_air_temple = {
+					short_name = yes
+				}
+				b_quamdo = {}
+				b_sum_pa = {}
+				b_lou_lan = {}
+				b_southern_air_temple1 = {
+					short_name = yes
+				}
+				b_southern_air_temple2 = {
+					short_name = yes
+				}
+				b_southern_air_temple3 = {
+					short_name = yes
+				}
+			}
+			c_palkyi = { # 671
+				color = { 227 206 26 }
+				color2 = { 255 255 255 }
+				
+				b_chondron = {}
+				b_dolma = {}
+				b_palkyi = {}
+				b_palkyi1 = {}
+				b_palkyi2 = {}
+				b_palkyi3 = {}
+				b_palkyi4 = {}
+			}
+			c_tsewang = { # 672
+				color = { 222 202 26 }
+				color2 = { 255 255 255 }
+				
+				b_tsemo = {}
+				b_gonpo = {}
+				b_tsewang = {}
+				b_tsewang1 = {}
+				b_tsewang2 = {}
+				b_tsewang3 = {}
+				b_tsewang4 = {}
+			}
+			c_tsultrim = { # 673
+				color = { 226 208 61 }
+				color2 = { 255 255 255 }
+				
+				b_nyamgal = {}
+				b_wangchuk = {}
+				b_tsultrim = {}
+				b_tsultrim1 = {}
+				b_tsultrim2 = {}
+				b_tsultrim3 = {}
+				b_tsultrim4 = {}
+			}
+		}
+		d_namtso = {
+			color = { 239 197 52 }
+			color2 = { 255 255 255 }
+			
+			capital = 32 # namtso
+			
+			c_namtso = { # 32
+				color = { 239 197 52 }
+				color2 = { 255 255 255 }
+
+				b_namtso = {}
+				b_tarim = {}
+				b_namtso1 = {}
+				b_namtso2 = {}
+				b_namtso3 = {}
+				b_namtso4 = {}
+				b_namtso5 = {}
+			}
+			c_pema = { # 674
+				color = { 207 175 62 }
+				color2 = { 255 255 255 }
+				
+				b_pema = {}
+				b_bhakto = {}
+				b_pema1 = {}
+				b_pema2 = {}
+				b_pema3 = {}
+				b_pema4 = {}
+				b_pema5 = {}
+			}
+			c_manriwa = { # 675
+				color = { 227 190 64 }
+				color2 = { 255 255 255 }
+				
+				b_tashi = {}
+				b_manriwa = {}
+				b_manriwa1 = {}
+				b_manriwa2 = {}
+				b_manriwa3 = {}
+				b_manriwa4 = {}
+				b_manriwa5 = {}
+			}
+		}
+		d_amdo_islands = {
+			color = { 196 158 20 }
+			color2 = { 255 255 255 }
+			capital = 36 # c_amdo
+
+			c_amdo = { # 36
+				color = { 198 183 51 }
+				color2 = { 255 255 255 }
+
+				b_fuqi = {}
+				b_karluk = {}
+				b_amdo = {}
+				b_amdo1 = {}
+				b_amdo2 = {}
+				b_amdo3 = {}
+				b_amdo4 = {}
+			}
+			c_sangmo = { # 676
+				color = { 206 190 47 }
+				color2 = { 255 255 255 }
+				
+				b_karpo = {}
+				b_danha = {}
+				b_bhutia = {}
+				b_sangmo = {}
+				b_sangmo1 = {}
+				b_sangmo2 = {}
+				b_sangmo3 = {}
+			}
+			c_kangrinboqe = { # 33
+				color = { 218 192 100 }
+				color2 = { 255 255 255 }
+
+				b_kangrinboqe = {}
+				b_gilgit = {}
+				b_kangrinboqe1 = {}
+				b_kangrinboqe2 = {}
+				b_kangrinboqe3 = {}
+				b_kangrinboqe4 = {}
+				b_kangrinboqe5 = {}
+			}
+		}
+		d_jamtso = {
+			color = { 161 162 47 }
+			color2 = { 255 255 255 }
+			
+			capital = 680 # c_jamtso
+			
+			c_lhasa = { # 35
+				color = { 161 149 41 }
+				color2 = { 255 255 255 }
+
+				b_lhasa = {}
+				b_bumthang = {}
+				b_lhasa1 = {}
+				b_lhasa2 = {}
+				b_lhasa3 = {}
+				b_lhasa4 = {}
+				b_lhasa5 = {}
+			}
+			c_tselha = { # 679
+				color = { 176 162 34 }
+				color2 = { 255 255 255 }
+				
+				b_repa = {}
+				b_yeshy = {}
+				b_wangmo = {}
+				b_tselha = {}
+				b_tselha1 = {}
+				b_tselha2 = {}
+				b_tselha3 = {}
+			}
+			c_jamtso =  { # 680
+				color = { 168 156 47 }
+				color2 = { 255 255 255 }
+				
+				b_thekchan = {}
+				b_metok = {}
+				b_jamtso = {}
+				b_jamtso1 = {}
+				b_jamtso2 = {}
+				b_jamtso3 = {}
+				b_jamtso4 = {}
+			}
+			c_kelden = { # 681
+				color = { 180 169 69 }
+				color2 = { 255 255 255 }
+				
+				b_kelden = {}
+				b_kelden1 = {}
+				b_kelden2 = {}
+				b_kelden3 = {}
+				b_kelden4 = {}
+				b_kelden5 = {}
+				b_kelden6 = {}
+			}
+		}
+		d_kangaroo_island = {
+			color = { 208 192 49 }
+			capital = 34 # c_kangaroo_island
+			
+			c_kangaroo_island = { # 34
+				color = { 186 168 15 }
+				color2 = { 255 255 255 }
+
+				b_charklik = {}
+				b_miran = {}
+				b_kangaroo_island = {}
+				b_kangaroo_island1 = {}
+				b_kangaroo_island2 = {}
+				b_kangaroo_island3 = {}
+				b_kangaroo_island4 = {}
+			}
+			c_east_kangaroo_island = { # 677
+				color = { 208 192 49 }
+				color2 = { 255 255 255 }
+				
+				b_wangyal = {}
+				b_east_kangaroo_island = {}
+				b_east_kangaroo_island1 = {}
+				b_east_kangaroo_island2 = {}
+				b_east_kangaroo_island3 = {}
+				b_east_kangaroo_island4 = {}
+				b_east_kangaroo_island5 = {}
+			}
+			c_kangaroo_tip = { # 678
+				color = { 194 176 42 }
+				color2 = { 255 255 255 }
+				
+				b_passang = {}
+				b_namtse = {}
+				b_kangaroo_tip = {}
+				b_kangaroo_tip1 = {}
+				b_kangaroo_tip2 = {}
+				b_kangaroo_tip3 = {}
+				b_kangaroo_tip4 = {}
+			}
+		}
+		d_sangria = {
+			color = { 149 121 26 }
+			color2 = { 255 255 255 }
+			capital = 38 # c_sangria
+			
+			c_sangria = { # 38
+				color = { 149 121 26 }
+				color2 = { 255 255 255 }
+
+				b_kailash = {}
+				b_yarlung = {}
+				b_sangria = {}
+				b_sangria1 = {}
+				b_sangria2 = {}
+				b_sangria3 = {}
+				b_sangria4 = {}
+			}
+			c_choegyal = { # 665
+				color = { 176 144 34 }
+				color2 = { 255 255 255 }
+				
+				b_choegyal = {}
+				b_pandita = {}
+				b_choegyal1 = {}
+				b_choegyal2 = {}
+				b_choegyal3 = {}
+				b_choegyal4 = {}
+				b_choegyal5 = {}
+			}
+			c_kalsang = { # 666
+				color = { 154 129 44 }
+				color2 = { 255 255 255 }
+				
+				b_jangchup = {}
+				b_kalsang = {}
+				b_kalsang1 = {}
+				b_kalsang2 = {}
+				b_kalsang3 = {}
+				b_kalsang4 = {}
+				b_kalsang5 = {}
+			}
+			c_dhargay = { # 667
+				color = { 186 155 50 }
+				color2 = { 255 255 255 }
+				
+				b_lukhangwa = {}
+				b_dhargay = {}
+				b_dhargay1 = {}
+				b_dhargay2 = {}
+				b_dhargay3 = {}
+				b_dhargay4 = {}
+				b_dhargay5 = {}
+			}
+			c_chonden =  { # 668
+				color = { 182 154 59 }
+				color2 = { 255 255 255 }
+				
+				b_tsering = {}
+				b_konchok = {}
+				b_chonden = {}
+				b_chonden1 = {}
+				b_chonden2 = {}
+				b_chonden3 = {}
+				b_chonden4 = {}
+			}
+		}
+		d_baingoin_islands = {
+			color = { 160 126 24 }
+			color2 = { 255 255 255 }
+			capital = 37 # c_baingoin
+
+			c_baingoin = { # 37
+				color = { 150 136 19 }
+				color2 = { 255 255 255 }
+
+				b_leh = {}
+				b_kyunglung = {}
+				b_baingoin = {}
+				b_baingoin1 = {}
+				b_baingoin2 = {}
+				b_baingoin3 = {}
+				b_baingoin4 = {}
+			}
+			c_west_baingoin = { # 669
+				color = { 169 155 37 }
+				color2 = { 255 255 255 }
+				
+				b_jinpa = {}
+				b_damchoe = {}
+				b_west_baingoin = {}
+				b_west_baingoin1 = {}
+				b_west_baingoin2 = {}
+				b_west_baingoin3 = {}
+				b_west_baingoin4 = {}
+			}
+			c_palsang = { # 670
+				color = { 182 155 37 }
+				color2 = { 255 255 255 }
+				
+				b_palsang = {}
+				b_palsang1 = {}
+				b_palsang2 = {}
+				b_palsang3 = {}
+				b_palsang4 = {}
+				b_palsang5 = {}
+				b_palsang6 = {}
+			}
+		}
+		d_lhari_islands = {
+			color = { 209 188 32 }
+			color2 = { 255 255 255 }
+			capital = 39 # c_lhari
+
+			c_lhari = { # 39
+				color = { 219 178 37 }
+				color2 = { 255 255 255 }
+
+				b_chengdou = {}
+				b_nanzhao = {}
+				b_lhari = {}
+				b_lhari1 = {}
+				b_lhari2 = {}
+				b_lhari3 = {}
+				b_lhari4 = {}
+			}
+			c_sambhota = { # 40
+				color = { 201 189 112 }
+				color2 = { 255 255 255 }
+
+				b_drakpa = {
+					fire_nation = "Southern Raider Base"
+				}
+				b_tsogyal = {}
+				b_sambhota = {}
+				b_sambhota1 = {}
+				b_sambhota2 = {}
+				b_sambhota3 = {}
+				b_sambhota4 = {}
+			}
+		}
+		d_whaletail_island = {
+			color = { 211 201 117 }
+			color2 = { 255 255 255 }
+			capital = 568 # c_whaletail_island
+
+			c_whaletail_island = { # 568
+				color = { 211 201 117 }
+				color2 = { 255 255 255 }
+
+				holy_site = nomadic_nihilism
+				holy_site = nomadic_nihilism_reformed
+				holy_site = vaatuism
+				holy_site = vaatuism_reformed
+
+				b_tang_xu = {}
+				b_whale_town = {}
+				b_qamdo = {}
+				b_whaletail_island = {}
+				b_whaletail_island1 = {}
+				b_whaletail_island2 = {}
+				b_whaletail_island3 = {}
+			}
+			c_east_whaletail_island = { # 663
+				color = { 219 188 117 }
+				color2 = { 194 180 100 }
+				
+				b_youdon = {}
+				b_port_tailsend = {}
+				b_east_whaletail_island = {}
+				b_east_whaletail_island1 = {}
+				b_east_whaletail_island2 = {}
+				b_east_whaletail_island3 = {}
+				b_east_whaletail_island4 = {}
+			}
+			c_whaletail_kho = { # 664
+				color =  { 219 159 117 }
+				color2 = { 194 130 100 }
+				
+				b_sangpo = {}
+				b_whaletail_kho = {}
+				b_whaletail_kho1 = {}
+				b_whaletail_kho2 = {}
+				b_whaletail_kho3 = {}
+				b_whaletail_kho4 = {}
+				b_whaletail_kho5 = {}
+			}
+		}
+	}
+	k_eastern_air_temple = {
+		color = { 204 82 0 }
+		color2 = { 255 255 255 }
+
+		capital = 44 # c_eastern_air_temple
+		culture = eastern_air_nomad
+		short_name = yes
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					ai = no
+					culture_group = air_nomad_culture
+				}
+			}
+		}
+
+		d_gorakhpur = {
+			color = { 163 97 46 }
+			color2 = { 255 255 255 }
+			capital = 41 # c_gorakhpur
+
+			c_gorakhpur = { # 41
+				color = { 153 107 41 }
+				color2 = { 255 255 255 }
+
+				b_kushinagar = {}
+				b_gorakhpur = {}
+				b_taizhou = {}
+				b_gorakhpur1 = {}
+				b_gorakhpur2 = {}
+				b_gorakhpur3 = {}
+				b_gorakhpur4 = {}
+			}
+			c_oandita = { # 548
+				color = { 201 146 85 }
+				color2 = { 255 255 255 }
+
+				b_oandita = {}
+				b_norsana = {}
+				b_oandita1 = {}
+				b_oandita2 = {}
+				b_oandita3 = {}
+				b_oandita4 = {}
+				b_oandita5 = {}
+			}
+		}
+		d_gaya = {
+			color = { 213 154 70 }
+			color2 = { 255 255 255 }
+			capital = 42 # c_gaya
+
+			c_gaya = { # 42
+				color = { 213 154 70 }
+				color2 = { 255 255 255 }
+
+				b_gaya = {}
+				b_a_zha = {}
+				b_gaya1 = {}
+				b_gaya2 = {}
+				b_gaya3 = {}
+				b_gaya4 = {}
+				b_gaya5 = {}
+			}
+			c_nyingpo = { # 547
+				color = { 195 153 89 }
+				color2 = { 255 255 255 }
+
+				b_nyingpo = {}
+				b_lhundrua = {}
+				b_nyingpo1 = {}
+				b_nyingpo2 = {}
+				b_nyingpo3 = {}
+				b_nyingpo4 = {}
+				b_nyingpo5 = {}
+			}
+		}
+
+		d_lotsawa = {
+			color = { 189 147 81 }
+			color2 = { 255 255 255 }
+			capital = 546 # c_lotsawa
+
+			c_varanasi = { # 43
+				color = { 188 117 16 }
+				color2 = { 255 255 255 }
+
+				b_sarnath = {}
+				b_varanasi = {}
+				b_varanasi1 = {}
+				b_varanasi2 = {}
+				b_varanasi3 = {}
+				b_varanasi4 = {}
+				b_varanasi5 = {}
+			}
+			c_lotsawa = { # 546
+				color = { 189 147 81 }
+				color2 = { 255 255 255 }
+
+				b_lotsawa = {}
+				b_trengwi = {}
+				b_lotsawa1 = {}
+				b_lotsawa2 = {}
+				b_lotsawa3 = {}
+				b_lotsawa4 = {}
+				b_lotsawa5 = {}
+			}
+		}
+		
+		d_eastern_air_temple = {
+			color = { 198 107 21 }
+			color2 = { 255 255 255 }
+			capital = 44 # c_eastern_air_temple
+
+			c_eastern_air_temple = { # 44
+				color = { 238 149 21 }
+				color2 = { 255 255 255 }
+
+				holy_site = air_spirituality
+				holy_site = air_spirituality_reformed
+				holy_site = nomadic_nihilism
+				holy_site = nomadic_nihilism_reformed
+				holy_site = air_acolytism
+				holy_site = air_acolytism_reformed
+				holy_site = neo-nomadism
+				holy_site = neo-nomadism_reformed
+
+				b_eastern_air_temple = {
+					short_name = yes
+				}
+				b_eastern_air_temple1 = {
+					short_name = yes
+				}
+				b_eastern_air_temple2 = {
+					short_name = yes
+				}
+				b_eastern_air_temple3 = {
+					short_name = yes
+				}
+				b_eastern_air_temple4 = {
+					short_name = yes
+				}
+				b_eastern_air_temple5 = {
+					short_name = yes
+				}
+				b_eastern_air_temple6 = {
+					short_name = yes
+				}
+			}
+			c_lumbini = { # 45
+				color = { 176 121 43 }
+				color2 = { 255 255 255 }
+
+				b_lumbini = {}
+				b_dartsedo = {}
+				b_lumbini1 = {}
+				b_lumbini2 = {}
+				b_lumbini3 = {}
+				b_lumbini4 = {}
+				b_lumbini5 = {}
+			}
+			c_rinchen = { # 545
+				color = { 197 152 101 }
+				color2 = { 255 255 255 }
+
+				b_rinchen = {}
+				b_karpu = {}
+				b_rinchen1 = {}
+				b_rinchen2 = {}
+				b_rinchen3 = {}
+				b_rinchen4 = {}
+				b_rinchen5 = {}
+			}
+		}
+	}
+	k_northern_air_temple = {
+		color = { 229 92 0 }
+		color2 = { 255 255 255 }
+
+		capital = 46 # c_northern_air_temple
+		culture = northern_air_nomad
+		short_name = yes
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					ai = no
+					culture_group = air_nomad_culture
+				}
+			}
+		}
+
+		d_northern_air_temple = {
+			color = { 255 115 0 }
+			color2 = { 255 255 255 }
+			fire_nation = "Northern Mountains"
+			capital = 46 # c_northern_air_temple
+
+			c_northern_air_temple = { # 46
+				color = { 255 115 0 }
+				color2 = { 255 255 255 }
+
+				holy_site = air_spirituality
+				holy_site = air_spirituality_reformed
+				holy_site = nomadic_nihilism
+				holy_site = nomadic_nihilism_reformed
+				holy_site = air_acolytism
+				holy_site = air_acolytism_reformed
+				holy_site = neo-nomadism
+				holy_site = neo-nomadism_reformed
+
+				b_northern_air_temple = {
+					short_name = yes
+				}
+				b_zhang_zhung = {}
+				b_yarlung_2 = {}
+				b_bon = {}
+				b_northern_air_temple1 = {
+					short_name = yes
+				}
+				b_northern_air_temple2 = {
+					short_name = yes
+				}
+				b_northern_air_temple3 = {
+					short_name = yes
+				}
+			}
+			c_gerse = { # 48
+				color = { 173 98 36 }
+				color2 = { 255 255 255 }
+
+				b_mani_bkabum = {}
+				b_zingpoje = {}
+				b_namri = {}
+				b_gerse = {}
+				b_gerse1 = {}
+				b_gerse2 = {}
+				b_gerse3 = {}
+			}
+			c_qonggyai = { # 47
+				color = { 195 95 14 }
+				color2 = { 255 255 255 }
+
+				b_nyatri_tsenpo = {}
+				b_longam = {}
+				b_qonggyai = {}
+				b_qonggyai1 = {}
+				b_qonggyai2 = {}
+				b_qonggyai3 = {}
+				b_qonggyai4 = {}
+			}
+		}
+		d_kangmar = {
+			color = { 182 114 90 }
+			color2 = { 255 255 255 }
+			capital = 49 # c_baqun
+
+			c_baqun = { # 49
+				color = { 172 124 85 }
+				color2 = { 255 255 255 }
+
+				b_lontsan = {}
+				b_songtsan_gampo = {}
+				b_baqun = {}
+				b_baqun1 = {}
+				b_baqun2 = {}
+				b_baqun3 = {}
+				b_baqun4 = {}
+			}
+			c_dagze = { # 53
+				color = { 163 81 14 }
+				color2 = { 255 255 255 }
+
+				b_degyel = {}
+				b_tho_thori = {}
+				b_dagze = {}
+				b_dagze1 = {}
+				b_dagze2 = {}
+				b_dagze3 = {}
+				b_dagze4 = {}
+			}
+			c_laghima's_peak = { # 50
+				color = { 229 137 62 }
+				color2 = { 255 255 255 }
+
+				b_laghima = {}
+				b_senol_po = {}
+				b_laghima1 = {}
+				b_laghima2 = {}
+				b_laghima3 = {}
+				b_laghima4 = {}
+				b_laghima5 = {}
+			}
+		}
+		d_tianzhu = {
+			color = { 203 111 34 }
+			color2 = { 255 255 255 }
+			capital = 54 # c_tianzhu
+		
+			c_tianzhu = { # 54
+				color = { 191 104 31 }
+				color2 = { 255 255 255 }
+
+				b_tritog = {}
+				b_siptri = {}
+				b_tianzhu = {}
+				b_tianzhu1 = {}
+				b_tianzhu2 = {}
+				b_tianzhu3 = {}
+				b_tianzhu4 = {}
+			}
+			c_tseten = { # 617
+				color = { 203 111 34 }
+				color2 = { 255 255 255 }
+
+				b_tseten = {}
+				b_jigme = {}
+				b_tseten1 = {}
+				b_tseten2 = {}
+				b_tseten3 = {}
+				b_tseten4 = {}
+				b_tseten5 = {}
+			}
+			c_dhompa = { # 618
+				color = { 219 118 34 }
+				color2 = { 255 255 255 }
+
+				b_dhompa = {}
+				b_dhompa1 = {}
+				b_dhompa2 = {}
+				b_dhompa3 = {}
+				b_dhompa4 = {}
+				b_dhompa5 = {}
+				b_dhompa6 = {}
+			}
+			c_dema = { # 619
+				color = { 208 123  52 }
+				color2 = { 255 255 255 }
+
+				b_dema = {}
+				b_gurung = {}
+				b_dema1 = {}
+				b_dema2 = {}
+				b_dema3 = {}
+				b_dema4 = {}
+				b_dema5 = {}
+			}
+			c_ngonga = { # 620
+				color = { 210 118  40 }
+				color2 = { 200 125  35 }
+
+				b_ngonga = {}
+				b_ngonga1 = {}
+				b_ngonga2 = {}
+				b_ngonga3 = {}
+				b_ngonga4 = {}
+				b_ngonga5 = {}
+				b_ngonga6 = {}
+			}
+		}
+		d_xainza = {
+			color = { 164 135 79 }
+			color2 = { 255 255 255 }
+			
+			capital = 51 # c_xainza
+
+			c_xainza = { # 51
+				color = { 174 125 84 }
+				color2 = { 255 255 255 }
+
+				holy_site = barbarism
+				holy_site = barbarism_reformed
+
+				b_gampo = {}
+				b_drongnyen = {}
+				b_me = {}
+				b_xainza = {}
+				b_xainza1 = {}
+				b_xainza2 = {}
+				b_xainza3 = {}
+			}
+			c_zhagyab = { # 52
+				color = { 219 127 52 }
+				color2 = { 255 255 255 }
+
+				b_langdarma = {}
+				b_chatri = {}
+				b_zhagyab = {}
+				b_zhagyab1 = {}
+				b_zhagyab2 = {}
+				b_zhagyab3 = {}
+				b_zhagyab4 = {}
+			}
+		}
+	}
+	k_western_air_temple = {
+		color = { 230 107 24 }
+		color2 = { 255 255 255 }
+		
+		short_name = yes
+		
+		capital = 55 # c_western_air_temple
+		
+		culture = western_air_nomad
+		
+		fire_nation = "Western Archipelago"
+		
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					ai = no
+					culture_group = air_nomad_culture
+				}
+			}
+		}
+
+		d_western_air_temple = {
+			color = { 180 134 46 }
+			color2 = { 255 255 255 }
+			
+			capital = 55 # c_western_air_temple
+
+			c_western_air_temple = { # 55
+				color = { 170 144 41 }
+				color2 = { 255 255 255 }
+
+				holy_site = air_spirituality
+				holy_site = air_spirituality_reformed
+				holy_site = nomadic_nihilism
+				holy_site = nomadic_nihilism_reformed
+				holy_site = air_acolytism
+				holy_site = air_acolytism_reformed
+				holy_site = neo-nomadism
+				holy_site = neo-nomadism_reformed
+
+				b_western_air_temple = {
+					short_name = yes
+				}
+				b_western_air_temple1 = {
+					short_name = yes
+				}
+				b_western_air_temple2 = {
+					short_name = yes
+				}
+				b_western_air_temple3 = {
+					short_name = yes
+				}
+				b_western_air_temple4 = {
+					short_name = yes
+				}
+				b_western_air_temple5 = {
+					short_name = yes
+				}
+				b_western_air_temple6 = {
+					short_name = yes
+				}
+			}
+			c_yakutama  = { # 600
+				color = { 184 158 56 }
+				color2 = { 255 255 255 }
+				
+				b_yakutama = {
+				}
+				b_rong = {
+				}
+				b_shiquan = {
+				}
+				
+			}
+			c_rigsang = { # 601
+				color = { 162 135 29 }
+				color2 = { 255 255 255 }
+				
+				b_rigsang = {
+				}
+				b_wangdue = {
+				}
+			}
+			c_yangdon = { # 602
+				color = { 181 150 26 }
+				color2 = { 255 255 255 }
+				
+				b_yangdon = {
+				}
+				b_kechok = {
+				}
+			}
+		}
+		d_ngawang = {
+			color = { 172 145 34 }
+			color2 = { 255 255 255 }
+			capital = 603 # c_lhawang
+
+			c_nyima = { # 551
+				color = { 179 162 95 }
+				color2 = { 255 255 255 }
+
+				b_nyima = {
+				}
+				b_drubu = {
+				}
+			}
+			c_ngawang = { # 603
+				color = { 172 145 34 }
+				color2 = { 255 255 255 }
+
+				b_ngawang = {
+				}
+				b_rangdol = {
+				}
+			}
+		}
+		d_lhawang = {
+			color = { 222 187 48 }
+			color2 = { 255 255 255 }
+			capital = 604 # c_lhawang
+
+			c_yuthok = { # 552
+				color = { 193 156 89 }
+				color2 = { 255 255 255 }
+
+				b_yuthok = {
+				}
+				b_phagpi = {
+				}
+			}
+			c_lhawang = { # 604
+				color = { 222 187 48 }
+				color2 = { 255 255 255 }
+				
+				b_lhawang = {
+				}
+				b_yungdrung = {
+				}
+			}
+			c_mipham = { # 605
+				color = { 232 196 50 }
+				color2 = { 255 255 255 }
+				
+				b_mipham = {
+				}
+				b_namdak = {
+				}
+				
+			}
+			c_legshey = { # 606
+				color = { 202 169 50 }
+				color2 = { 255 255 255 }
+				
+				b_legshey = {
+				}
+				b_aukatsang = {
+				}
+				
+			}
+		}
+
+		d_eastern_air_islands = {
+			color = { 203 173 54 }
+			color2 = { 255 255 255 }
+			capital = 59 # c_tuyuhum
+
+			c_pakshi = { # 549
+				color = { 198 192 73 }
+				color2 = { 255 255 255 }
+
+				b_pakshi = {
+				}
+				b_jampai = {
+				}
+			}
+			c_tuyuhum = { # 59
+				color = { 203 173 54 }
+				color2 = { 255 255 255 }
+
+				b_shanzhou = {
+				}
+				b_tridu = {
+				}
+			}
+			c_choenyi = { # 607
+				color = { 170 142 32 }
+				color2 = { 255 255 255 }
+				
+				b_choenyi = {
+				}
+				b_monpa = {
+				}
+			}
+		}
+		d_west_air_islands = {
+			color = { 180 173 52 }
+			color2 = { 255 255 255 }
+			capital = 57 # c_ladakh
+
+			c_ladakh = { # 57
+				color = { 190 163 57 }
+				color2 = { 255 255 255 }
+
+				b_leh_2 = {
+				}
+				b_ralpacan = {
+				}
+			}
+			c_sum_pa = { # 58
+				color = { 213 192 104 }
+				color2 = { 255 255 255 }
+
+				b_jyekundo_2 = {
+				}
+				b_jyekanko = {
+				}
+			}
+			c_shiyama = { # 595
+				color = { 203 178 75 }
+				color2 = { 255 255 255 }
+				
+				b_shiyama = {
+				}
+				b_kuritori = {
+				}
+			}
+		}
+		d_lingpa_shan = {
+			color = { 195 183 63 }
+			color2 = { 255 255 255 }
+			capital = 550 # c_lingpa
+
+			c_lingpa = { # 550
+				color = { 195 183 63 }
+				color2 = { 255 255 255 }
+
+				b_lingpa = {
+				}
+				b_rabjae = {
+				}
+			}
+			c_sincho = { # 596
+				color = { 201 175 72 }
+				color2 = { 255 255 255 }
+				
+				b_sincho = {
+				}
+				b_xuchun = {
+				}
+			}
+			c_nakaraoi = { # 597
+				color = { 207 187 106 }
+				color2 = { 255 255 255 }
+				
+				b_nakaraoi = {
+				}
+				b_sokwang = {
+				}
+			}
+		}
+
+		d_gyat = {
+			color = { 199 173 75 }
+			color2 = { 255 255 255 }
+			capital = 598 # c_gyat
+
+			c_zhang_zhung = { # 56
+				color = { 185 162 71 }
+				color2 = { 255 255 255 }
+
+				b_kyunglung_2 = {
+				}
+				b_jumla = {
+				}
+				b_tori = {
+				}
+			}
+			c_gyat = { # 598
+				color = { 199 173 75 }
+				color2 = { 255 255 255 }
+				
+				b_gyat = {
+				}
+				b_dakhma = {
+				}
+				b_jattan = {
+				}
+				
+			}
+			c_singa = { # 599
+				color = { 202 178 75 }
+				color2 = { 255 255 255 }
+				
+				b_singa = {
+				}
+				b_assur = {
+				}
+				b_lakh = {
+				}
+			}
+		}
+	}
+}
+
+e_fifth_nation = {
+	color = { 70 0 0 }
+	color2 = { 70 0 0 }
+	title = e_fifth_nation_ruler
+	title_female = e_fifth_nation_ruler_female
+	culture = pirate
+	
+	controls_religion = piracy
+	
+	allow = {
+		hidden_tooltip = {
+			OR = {
+				always = no
+				e_fifth_nation = { has_holder = yes }
+			}
+		}
+	}
+}
+
+e_fire_nation = {
+	color = { 170 0 0 }
+	color2 = { 255 255 20 }
+
+	capital = 60 # c_fire_palace
+	short_name = yes
+	culture = fire_nation
+	title = "FIRE_LORD"
+	title_female = "FIRE_LORD"
+	
+	controls_religion = fire_nation_imperialism
+
+	allow = {
+		hidden_tooltip = {
+			OR = {
+				always = no
+				e_fire_nation = { has_holder = yes }
+			}
+		}
+	}
+
+	k_fire_nation = {
+		color = { 170 0 0 }
+		color2 = { 255 255 255 }
+
+		capital = 60 # c_fire_palace
+		culture = fire_nation
+		short_name = yes
+		sun_warrior = "Xiuhmara"
+
+		allow = {
+			culture = fire_islander
+		}
+
+		d_capital_province = {
+			color = { 170 0 0 }
+			color2 = { 255 255 255 }
+			short_name = yes
+			fire_islander = "Hong"
+			sun_warrior = "Teyacapan"
+			capital = 60 # c_fire_palace
+			c_fire_palace = { # 60
+				color = { 205 0 0 }
+				color2 = { 255 255 255 }
+				short_name = yes
+				fire_islander = "Hong'a"
+				sun_warrior = "Tlalcayotl"
+
+				holy_site = fire_spirituality
+				holy_site = fire_spirituality_reformed
+				holy_site = bhanti_spirituality
+				holy_site = bhanti_spirituality_reformed
+				holy_site = the_eternal_flame
+				holy_site = the_eternal_flame_reformed
+				holy_site = fire_nation_imperialism
+				holy_site = fire_nation_imperialism_reformed
+				holy_site = anarchism
+				holy_site = anarchism_reformed
+				holy_site = equalism
+				holy_site = equalism_reformed
+
+				b_fire_palace = {
+					fire_islander = "Caldrea Stronghold"
+				}
+				b_capital_temple = {
+					fire_islander = "Caldrea Temple"
+				}
+				b_royal_city = {
+					fire_islander = "Caldrea City"
+				}
+				b_caldera_fortress = {
+				}
+				b_shimogyo = {
+				}
+				b_kitacho = {
+				}
+			}
+			c_fire_capital = { # 61
+				color = { 151 30 30 }
+				color2 = { 255 255 255 }
+				short_name = yes
+				fire_islander = "Caldrea City"
+				sun_warrior = "Amoxtli"
+
+				holy_site = fire_spirituality
+				holy_site = fire_spirituality_reformed
+				holy_site = bhanti_spirituality
+				holy_site = bhanti_spirituality_reformed
+				holy_site = the_eternal_flame
+				holy_site = the_eternal_flame_reformed
+				holy_site = fire_nation_imperialism
+				holy_site = fire_nation_imperialism_reformed
+
+				b_royal_plaza = {
+					fire_islander = "Inner Plaza"
+				}
+				b_fire_capital = {
+					fire_islander = "Caldrea City"
+				}
+				b_chionin = {
+				}
+				b_higashiyama = {
+				}
+				b_honmachi = {
+				}
+				b_tofukuji_temple = {
+				}
+				b_daikiin = {
+				}
+			}
+		}
+		d_ember = {
+			color = { 198 28 43 }
+			color2 = { 255 255 255 }
+			capital = 69 # c_ember_island
+			sun_warrior = "Montequi"
+
+			c_ember_island = { # 69
+				color = { 188 38 38 }
+				color2 = { 255 255 255 }
+				sun_warrior = "Mattla"
+
+				holy_site = witchcraft
+				holy_site = witchcraft_reformed
+
+				b_ember_island = {
+				}
+			}
+			c_jooshima = { # 70
+				color = { 151 62 62 }
+				color2 = { 255 255 255 }
+				sun_warrior = "Manauia"
+
+				b_jooshima = {
+				}
+				b_kuin_village = {
+					short_name = yes
+				}
+				b_ama = {
+				}
+			}
+		}
+		d_maizuru = {
+			color = { 151 19 34 }
+			color2 = { 255 255 255 }
+			capital = 62 # c_kanzaki
+			sun_warrior = "Moyolehuani"
+
+			c_kanzaki = { # 62
+				color = { 141 29 29 }
+				color2 = { 255 255 255 }
+				sun_warrior = "Tlalli"
+
+				b_kamikawa = {
+				}
+				b_umeda = {
+				}
+				b_hoonji = {
+				}
+				b_teramae = {
+				}
+				b_niino = {
+				}
+			}
+			c_dragon_island = { # 65
+				color = { 146 71 71 }
+				color2 = { 255 255 255 }
+				sun_warrior = "Nochtli"
+
+				b_long_shi = {
+				}
+				b_ishi = {
+				}
+				b_rokku = {
+				}
+			}
+			c_maizuru = { # 63
+				color = { 154 42 27 }
+				color2 = { 255 255 255 }
+				sun_warrior = "Necacoyotl"
+
+				b_yosano = {
+				}
+				b_kaya = {
+				}
+				b_kaya_temple = {
+				}
+				b_jofukuji = {
+				}
+				b_akeshi = {
+				}
+			}
+			c_yosa = { # 64
+				color = { 185 34 14 }
+				color2 = { 255 255 255 }
+				sun_warrior = "Tochlal"
+
+				b_maizuru = {
+				}
+				b_zenshoji = {
+				}
+				b_meirin_temple = {
+				}
+				b_tozanji = {
+				}
+				b_torii = {
+				}
+				b_ouchi = {
+				}
+				b_showadai = {
+				}
+			}
+		}
+		d_nabari = {
+			color = { 187 26 41 }
+			color2 = { 255 255 255 }
+			capital = 78 # c_aso
+			sun_warrior = "Yoloxochitl"
+
+			c_aso = { # 78
+				color = { 177 36 36 }
+				color2 = { 255 255 255 }
+				sun_warrior = "Icnoyotl"
+
+				b_shenme = {
+				}
+				b_zuo = {
+				}
+				b_da_zhen = {
+				}
+			}
+			c_kawazoe = { # 80
+				color = { 247 0 0 }
+				color2 = { 255 255 255 }
+				sun_warrior = "Xiomara"
+
+				b_ertong = {
+				}
+				b_qinghe = {
+				}
+				b_pangzhi = {
+				}
+			}
+			c_taki = { # 79
+				color = { 147 38 24 }
+				color2 = { 255 255 255 }
+				sun_warrior = "Ichtaca"
+
+				b_jundui = {
+				}
+				b_rouruo = {
+				}
+				b_nanxing = {
+				}
+			}
+		}
+		d_nanbuamu = {
+			color = { 170 5 20 }
+			color2 = { 255 255 255 }
+			capital = 66 # c_tottori
+			sun_warrior = "Tezozomoc"
+
+			c_tottori = { # 66
+				color = { 160 15 15 }
+				color2 = { 255 255 255 }
+				sun_warrior = "Tezozomoc"
+
+				b_tsunoi = {
+				}
+				b_ube = {
+				}
+				b_takaoka = {
+				}
+				b_koyama = {
+				}
+			}
+			c_yasugi = { # 67
+				color = { 128 11 11 }
+				color2 = { 255 255 255 }
+				sun_warrior = "Miztli"
+
+				b_yasugi = {
+				}
+				b_hida_springs = {
+				}
+				b_tokoji = {
+				}
+				b_suga = {
+				}
+			}
+			c_yonago = { # 68
+				color = { 217 26 26 }
+				color2 = { 255 255 255 }
+				sun_warrior = "Nochcoztli"
+
+				b_nakahama = {
+				}
+				b_yonago = {
+				}
+				b_kamo = {
+				}
+				b_kawasaki = {
+				}
+				b_sakamoto = {
+				}
+			}
+		}
+		d_sandu = {
+			color = { 153 19 34 }
+			color2 = { 255 255 255 }
+			capital = 71 # c_sandu
+			sun_warrior = "Ezhua"
+
+			c_sandu = { # 71
+				color = { 143 29 29 }
+				color2 = { 255 255 255 }
+				sun_warrior = "Huitzilpin"
+
+				b_sandu = {
+				}
+				b_asunaro = {
+				}
+				b_enya = {
+				}
+			}
+			c_feixi = { # 73
+				color = { 109 28 18 }
+				color2 = { 255 255 255 }
+				sun_warrior = "Ohtaca"
+
+				b_feixi = {
+				}
+				b_naoe = {
+				}
+				b_yokan = {
+				}
+				b_sagi = {
+				}
+			}
+			c_muli = { # 72
+				color = { 150 80 71 }
+				color2 = { 255 255 255 }
+				sun_warrior = "Iztapam"
+
+				b_muli = {
+				}
+				b_hiikawa = {
+				}
+				b_nakano = {
+				}
+				b_daisan = {
+				}
+			}
+		}
+		d_shimane = {
+			color = { 199 17 10 }
+			color2 = { 255 255 255 }
+			capital = 74 # c_susong
+			sun_warrior = "Ayotalapa"
+
+			c_susong = { # 74
+				color = { 189 27 5 }
+				color2 = { 255 255 255 }
+				sun_warrior = "Ayotzinco"
+
+				b_susong = {
+				}
+				b_surugisan = {
+				}
+				b_tarumi = {
+				}
+			}
+			c_izumo = { # 75
+				color = { 211 65 46 }
+				color2 = { 255 255 255 }
+				sun_warrior = "Itzapalapa"
+
+				b_izumo = {
+				}
+				b_nagahama = {
+				}
+				b_wakamiya = {
+				}
+			}
+			c_otsumachi = { # 77
+				color = { 114 24 24 }
+				color2 = { 255 255 255 }
+				sun_warrior = "Chapultepec"
+
+				b_ostsumachi = {
+				}
+				b_jieshou = {
+				}
+				b_dazu = {
+				}
+				b_hui = {
+				}
+			}
+			c_shobara = { # 76
+				color = { 108 40 31 }
+				color2 = { 255 255 255 }
+				sun_warrior = "Chiauhita"
+
+				b_shobara = {
+				}
+				b_nishiizumo = {
+				}
+				b_taki = {
+				}
+			}
+		}
+		d_uda = {
+			color = { 198 30 45 }
+			color2 = { 255 255 255 }
+			capital = 81 # c_watarai
+			sun_warrior = "Coatepes"
+
+			c_watarai = { # 81
+				color = { 188 40 40 }
+				color2 = { 255 255 255 }
+				sun_warrior = "Chalchiuites"
+
+				b_bulag_hu = {
+				}
+				b_du_hu = {
+				}
+				b_exin_zhen = {
+				}
+			}
+			c_miura = { # 82
+				color = { 176 6 6 }
+				color2 = { 255 255 255 }
+				sun_warrior = "Coatepec"
+
+				b_xiao = {
+				}
+				b_shiyi = {
+				}
+				b_maxi_tuan = {
+				}
+				b_masuta_senshi = {
+				}
+			}
+		}
+	}
+	k_western_fire_nation = {
+		color = { 165 60 35 }
+		color2 = { 255 255 255 }
+		capital = 83 # c_ryutozan
+		culture = fire_islander
+		sun_warrior = "Tlaxcala"
+
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					ai = no
+					culture = fire_islander
+				}
+			}
+		}
+
+		d_tenri = {
+			color = { 131 15 30 }
+			color2 = { 255 255 255 }
+			capital = 83 # c_ryutozan
+			sun_warrior = "Tultitoya"
+
+			c_ryutozan = { # 83
+				color = { 121 25 25 }
+				color2 = { 255 255 255 }
+				sun_warrior = "Ecatepec"
+
+				b_di_er = {
+				}
+				b_chisana = {
+				}
+				b_midarana_toshi = {
+				}
+				b_tetsu = {
+				}
+			}
+			c_samjosan = { # 85
+				color = { 169 10 10 }
+				color2 = { 255 255 255 }
+				sun_warrior = "Tultitan"
+
+				b_kasai = {
+				}
+				b_leng = {
+				}
+				b_nuandong = {
+				}
+				b_gaoda = {
+				}
+				b_ta = {
+				}
+			}
+			c_somonyama = { # 84
+				color = { 99 22 22 }
+				color2 = { 255 255 255 }
+				sun_warrior = "Tlapanaloya"
+
+				b_xiee = {
+				}
+				b_chugoku = {
+				}
+				b_bai = {
+				}
+				b_kamekamo_tochi = {
+				}
+			}
+			c_yuya = { # 86
+				color = { 187 45 45 }
+				color2 = { 255 255 255 }
+				sun_warrior = "Jilotzingo"
+
+				b_zai_liang_bing = {
+				}
+				b_juren = {
+				}
+				b_wu_qian_xi = {
+				}
+				b_wenhua_ziben = {
+				}
+				b_yuya = {
+				}
+			}
+		}
+		d_yamazoe = {
+			color = { 206 14 29 }
+			color2 = { 255 255 255 }
+			capital = 87 # c_burning_point
+			sun_warrior = "Tequixqepec"
+
+			c_burning_point = { # 87
+				color = { 196 24 24 }
+				color2 = { 255 255 255 }
+				sun_warrior = "Tequixquiac"
+
+				b_haizimen = {
+				}
+				b_shuo_de = {
+				}
+				b_zui_yuchun = {
+				}
+				b_de = {
+				}
+				b_shiqing = {
+				}
+			}
+			c_sakura = { # 88
+				color = { 96 18 18 }
+				color2 = { 255 255 255 }
+				sun_warrior = "Coyotepec"
+
+				b_sakura = {
+				}
+				b_yingtao = {
+				}
+				b_wugu = {
+				}
+				b_zhishuai_de = {
+				}
+			}
+			c_tokida = { # 89
+				color = { 142 13 13 }
+				color2 = { 255 255 255 }
+				sun_warrior = "Zitlaltepec"
+
+				b_keli = {
+				}
+				b_tie = {
+				}
+				b_laotie = {
+				}
+				b_lao = {
+				}
+			}
+		}
+		d_hono_island = {
+			color = { 149 42 42 }
+			color2 = { 255 255 255 }
+			capital = 93 # c_north_hono
+			sun_warrior = "Chiconoxtoc"
+
+			c_north_hono = { # 93
+				color = { 108 5 5 }
+				color2 = { 255 255 255 }
+				sun_warrior = "Chiconautla"
+
+				b_xinzang = {
+				}
+				b_zhongxin = {
+				}
+				b_he_ye = {
+				}
+				b_sahala = {
+				}
+			}
+			c_amagasaki = { # 95
+				color = { 191 23 23 }
+				color2 = { 255 255 255 }
+				sun_warrior = "Tepetlaoxtoc"
+
+				b_xiuxi_guiya = {
+				}
+				b_long_laoshi = {
+				}
+				b_jirongyuan = {
+				}
+				b_keyi_shuo_chu_ni = {
+				}
+			}
+			c_odai = { # 94
+				color = { 84 40 40 }
+				color2 = { 255 255 255 }
+				sun_warrior = "Tepexpan"
+
+				b_di_yi = {
+				}
+				b_shan_de_si = {
+				}
+				b_long = {
+				}
+				b_da_long_zhenzhu = {
+				}
+			}
+		}
+		d_inako = {
+			color = { 173 5 20 }
+			color2 = { 255 255 255 }
+			capital = 90 # c_kantake
+			sun_warrior = "Huexotuca"
+
+			c_kantake = { # 90
+				color = { 163 15 15 }
+				color2 = { 255 255 255 }
+				sun_warrior = "Huexotla"
+
+				b_kao_mianbao = {
+				}
+				b_bandao = {
+				}
+				b_di_san_zhen = {
+				}
+				b_huo_lingzhu = {
+				}
+			}
+			c_sakiyama = { # 91
+				color = { 117 26 26 }
+				color2 = { 255 255 255 }
+				sun_warrior = "Ixtapaluca"
+
+				b_ranshao_de_wangzi = {
+				}
+				b_beishang = {
+				}
+				b_huifu = {
+				}
+				b_guangcai = {
+				}
+			}
+			c_shiroyama = { # 92
+				color = { 198 24 24 }
+				color2 = { 255 255 255 }
+				sun_warrior = "Tlalmanalco"
+
+				b_ai_shengbing = {
+				}
+				b_baoli_nu = {
+				}
+				b_wu_fanying = {
+				}
+				b_dere = {
+				}
+			}
+		}
+	}
+	k_fire_islands = {
+		color = { 174 70 29 }
+		color2 = { 255 255 255 }
+		capital = 98 # c_shuhon
+		culture = fire_islander
+		sun_warrior = "Tlatelolco"
+
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					ai = no
+					culture = fire_islander
+				}
+			}
+		}
+
+		d_shuhon_island = {
+			color = { 162 4 19 }
+			color2 = { 255 255 255 }
+			capital = 98 # c_shuhon
+			sun_warrior = "Chala"
+
+			c_shuhon = { # 98
+				color = { 152 14 14 }
+				color2 = { 255 255 255 }
+				sun_warrior = "Chalco"
+
+				b_shuhon = {
+				}
+				b_fire_fountain_city = {
+				}
+				b_akazaki = {
+				}
+				b_nazena = {
+				}
+			}
+			c_uchiumi = { # 99
+				color = { 204 10 10 }
+				color2 = { 255 255 255 }
+				sun_warrior = "Cempoala"
+
+				b_uchiumi = {
+				}
+				b_miyakozaki = {
+				}
+				b_naon = {
+				}
+				b_toen = {
+				}
+			}
+		}
+		d_far_islands = {
+			color = { 255 127 165 }
+			color2 = { 255 255 255 }
+			capital = 106 # c_jang_hui
+			sun_warrior = "Teayin"
+
+			c_jang_hui = { # 106
+				color = { 201 6 6 }
+				color2 = { 255 255 255 }
+				sun_warrior = "Teayo"
+
+				b_jang_hui = {
+				}
+				b_kula = {
+				}
+			}
+			c_crescent_island = { # 108
+				color = { 204 57 57 }
+				color2 = { 255 255 255 }
+				sun_warrior = "Tamuin"
+
+				holy_site = fire_spirituality
+				holy_site = fire_spirituality_reformed
+				holy_site = bhanti_spirituality
+				holy_site = bhanti_spirituality_reformed
+				holy_site = the_eternal_flame
+				holy_site = the_eternal_flame_reformed
+				holy_site = fire_nation_imperialism
+				holy_site = fire_nation_imperialism_reformed
+
+				b_crescent_temple = {
+				}
+			}
+			c_ichiba = { # 107
+				color = { 146 20 20 }
+				color2 = { 255 255 255 }
+				sun_warrior = "Tula"
+
+				b_ichiba = {
+				}
+				b_kokee = {
+				}
+			}
+		}
+		d_ma'inka_and_ishigaki = {
+			color = { 206 89 31 }
+			color2 = { 255 255 255 }
+			capital = 100 # c_ma'inka
+			sun_warrior = "Malinazun"
+
+			c_ma'inka = { # 100
+				color = { 174 96 57 }
+				color2 = { 255 255 255 }
+				sun_warrior = "Malinalco"
+
+				holy_site = piracy
+				holy_site = piracy_reformed
+
+				b_ma'inka = {
+				}
+				b_amagi = {
+				}
+				b_boma = {
+				}
+				b_inutabu = {
+				}
+			}
+			c_ishigaki = { # 101
+				color = { 152 52 52 }
+				color2 = { 255 255 255 }
+				sun_warrior = "Tzintzuntzan"
+
+				holy_site = bhanti_spirituality
+				holy_site = bhanti_spirituality_reformed
+				holy_site = the_eternal_flame
+				holy_site = the_eternal_flame_reformed
+
+				b_ishigaki = {
+				}
+				b_motobu = {
+				}
+				b_bisezaki = {
+				}
+			}
+		}
+		d_penghu_islands = {
+			color = { 127 10 25 }
+			color2 = { 255 255 255 }
+			capital = 102 # c_penghu
+			sun_warrior = "Tlacalco"
+
+			c_penghu = { # 102
+				color = { 117 20 20 }
+				color2 = { 255 255 255 }
+				sun_warrior = "Atzcapotzalco"
+
+				b_penghu = {
+				}
+				b_penghu_harbour = {
+				}
+			}
+			c_hiraa = { # 104
+				color = { 195 31 31 }
+				color2 = { 255 255 255 }
+				sun_warrior = "Tlacopan"
+
+				b_hiraa = {
+				}
+				b_kiko = {
+				}
+			}
+			c_ninago = { # 103
+				color = { 133 17 17 }
+				color2 = { 255 255 255 }
+				sun_warrior = "Xochicalco"
+
+				holy_site = fire_spirituality
+				holy_site = fire_spirituality_reformed
+				holy_site = fire_nation_imperialism
+				holy_site = fire_nation_imperialism_reformed
+
+				b_ninago = {
+				}				
+				b_Kimonobe = {
+				}
+			}
+			c_shu_jing = { # 105
+				color = { 222 75 75 }
+				color2 = { 255 255 255 }
+				sun_warrior = "Calixtlahuaca"
+
+				holy_site = witchcraft
+				holy_site = witchcraft_reformed
+
+				b_shu_jing = {
+				}
+				b_shua = {
+				}
+			}
+		}
+	}
+	k_sun_warriors = {
+		color = { 159 15 0 }
+		color2 = { 255 255 255 }
+
+		capital = 96 # c_aztlan
+		culture = sun_warrior
+
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					ai = no
+					culture = sun_warrior
+				}
+			}
+		}
+
+		d_aztlan_islands = {
+			color = { 100 255 14 }
+			color2 = { 255 255 255 }
+			capital = 96 # c_aztlan
+
+			c_aztlan = { # 96
+				color = { 90 9 9 }
+				color2 = { 255 255 255 }
+
+				holy_site = fire_spirituality
+				holy_site = fire_spirituality_reformed
+				holy_site = bhanti_spirituality
+				holy_site = bhanti_spirituality_reformed
+				holy_site = the_eternal_flame
+				holy_site = the_eternal_flame_reformed
+				holy_site = fire_nation_imperialism
+				holy_site = fire_nation_imperialism_reformed
+
+				b_aztlan = {
+				}
+				b_huei_teocalli = {
+				}
+				b_chicomoztoc = {
+				}
+				b_mazatla = {
+				}
+				b_nochloc = {
+				}
+				b_ozomatecol = {
+				}
+				b_amoxloc = {
+				}
+			}
+			c_boiling_rock = { # 97
+				color = { 54 22 22 }
+				color2 = { 255 255 255 }
+				sun_warrior = "Texcoco"
+
+				b_boiling_rock = {
+					sun_warrior = "Texcoco "
+					title = "WARDEN"
+					title_female = "WARDEN"
+				}
+			}
+		}
+	}
+}
+e_water_tribes = {
+	color = { 0 51 153 }
+	color2 = { 255 255 20 }
+
+	capital = 7 # c_northern_water_tribe
+	short_name = yes
+	culture = northern_water
+
+	allow = {
+		culture_group = water_tribe_culture
+	}
+
+	k_northern_water_tribe = {
+		color = { 0 66 197 }
+		color2 = { 255 255 255 }
+
+		capital = 7 # c_northern_water_tribe
+		culture = northern_water
+
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					ai = no
+					culture_group = water_tribe_culture
+				}
+			}
+		}
+
+		d_northen_water_tribe = {
+			color = { 60 201 220 }
+			color2 = { 255 255 255 }
+			capital = 7 # c_northern_water_tribe
+
+			c_northern_water_tribe = { # 7
+				color = { 70 191 225 }
+				color2 = { 255 255 255 }
+
+				holy_site = southern_spirituality
+				holy_site = southern_spirituality_reformed
+				holy_site = tui_and_la
+				holy_site = tui_and_la_reformed
+				holy_site = anarchism
+				holy_site = anarchism_reformed
+				holy_site = equalism
+				holy_site = equalism_reformed
+				holy_site = barbarism
+				holy_site = barbarism_reformed
+
+				b_north_wall = {
+				}
+				b_agna_qel'a = {
+				}
+				b_spirit_oasis = {
+				}
+				b_deniigi = {
+				}
+				b_upper_district = {
+				}
+				b_lower_district = {
+				}
+			}
+			c_north_pole = { # 8
+				color = { 29 125 153 }
+				color2 = { 255 255 255 }
+
+				holy_site = southern_spirituality
+				holy_site = southern_spirituality_reformed
+				holy_site = tui_and_la
+				holy_site = tui_and_la_reformed
+				holy_site = vaatuism
+				holy_site = vaatuism_reformed
+
+				b_nuqiakka = {
+				}
+				b_north_pole = {
+				}
+			}
+		}
+		d_frozen_sea = {
+			color = { 92 198 208 }
+			color2 = { 255 255 255 }
+			capital = 14 # c_piqaluyak
+
+			c_piqaluyak = { # 14
+				color = { 96 181 205 }
+				color2 = { 255 255 255 }
+
+				b_sikrinaktok = {
+				}
+				b_pidgulak = {
+				}
+				b_nutjuitok = {
+				}
+			}
+			c_nigliktok = { # 16
+				color = { 92 129 140 }
+				color2 = { 255 255 255 }
+
+				holy_site = tui_and_la
+				holy_site = tui_and_la_reformed
+
+				b_apsimayut = {
+				}
+				b_apusimatiq = {
+				}
+				b_aujaqauit = {
+				}
+			}
+			c_qunbuq = { # 15
+				color = { 62 116 131 }
+				color2 = { 255 255 255 }
+
+				b_okradloriktok = {
+				}
+				b_qunbuq = {
+				}
+				b_kanangnae = {
+				}
+			}
+			c_kauraut = { # 561
+				color = { 72 97 131 }
+				color2 = { 255 255 255 }
+
+				b_kauraut = {
+				}
+				b_nunavuq = {
+				}
+				b_nalruuk = {
+				}
+			}
+			c_niriq = { # 558
+				color = { 81 97 128 }
+				color2 = { 255 255 255 }
+
+				b_niriq = {
+				}
+				b_illuiju = {
+				}
+				b_illaujaq = {
+				}
+			}
+		}
+		d_full_moon_coast = {
+			color = { 75 170 176 }
+			color2 = { 255 255 255 }
+			capital = 9 # c_taktok
+
+			c_taktok = { # 9
+				color = { 85 160 181 }
+				color2 = { 255 255 255 }
+
+				b_perkoyiyok = {
+				}
+				b_sivudlit = {
+				}
+				b_sinnektomanerk = {
+				}
+			}
+			c_otok = { # 11
+				color = { 73 200 235 }
+				color2 = { 255 255 255 }
+
+				b_illitkosetsiak = {
+				}
+				b_attukattak = {
+				}
+				b_nannguai = {
+				}
+			}
+			c_tatkret = { # 10
+				color = { 163 200 210 }
+				color2 = { 255 255 255 }
+
+				b_pialaitok = {
+				}
+				b_malarpok = {
+				}
+				b_illauqaiu = {
+				}
+			}
+			c_aquijuq = { # 557
+				color = { 162 194 216 }
+				color2 = { 255 255 255 }
+
+				b_aquijuq = {
+				}
+				b_muruniu = {
+				}
+				b_sikuiqtua = {
+				}
+			}
+			c_olikpok_isles = { # 13
+				color = { 133 154 160 }
+				color2 = { 255 255 255 }
+
+				b_erkraidguyok = {
+				}
+				b_nalunaikuta = {
+				}
+				b_aujaqauituq = {
+				}
+			}
+		}
+		d_ice_shores = {
+			color = { 93 195 202 }
+			color2 = { 255 255 255 }
+			capital = 17 # c_mauragaaqtuq
+
+			c_mauragaaqtuq = { # 17
+				color = { 103 185 207 }
+				color2 = { 255 255 255 }
+
+				b_aituserk = {
+				}
+				b_salaksarpok = {
+				}
+				b_qimujjuiu = {
+				}
+			}
+			c_imaq = { # 18
+				color = { 44 107 126 }
+				color2 = { 255 255 255 }
+
+				b_naartok = {
+				}
+				b_lak = {
+				}
+				b_qanipiluktu = {
+				}
+			}
+			c_imavaalua = { # 19
+				color = { 103 171 191 }
+				color2 = { 255 255 255 }
+
+				b_tatkret = {
+				}
+				b_sikuliu = {
+				}
+				b_kaniqpae = {
+				}
+			}
+			c_taima = { # 559
+				color = { 95 162 181 }
+				color2 = { 255 255 255 }
+
+				b_taima = {
+				}
+				b_sikuq = {
+				}
+				b_aqiupiq = {
+				}
+			}
+			c_qallut = { # 560
+				color = { 69 102 141 }
+				color2 = { 255 255 255 }
+
+				b_qallut = {
+				}
+				b_haviq = {
+				}
+				b_tallimaq = {
+				}
+			}
+		}
+		d_outer_pole = {
+			color = { 43 126 169 }
+			color2 = { 255 255 255 }
+			capital = 12 # c_nutjuitok
+
+			c_nutjuitok = { # 12
+				color = { 33 136 164 }
+				color2 = { 255 255 255 }
+
+				b_illautiwok = {
+				}
+				b_alornerk = {
+				}
+				b_ijaruaq = {
+				}
+			}
+			c_imiijauti = { # 553
+				color = { 35 121 142 }
+				color2 = { 255 255 255 }
+
+				b_imiijauti = {
+				}
+				b_malruuk = {
+				}
+				b_pinghut = {
+				}
+			}
+			c_imaaqpaa = { # 554
+				color = { 40 115 132 }
+				color2 = { 255 255 255 }
+
+				b_imaaqpaa = {
+				}
+				b_akiucaq = {
+				}
+				b_qaluq = {
+				}
+			}
+			c_sanngijuq = { # 555
+				color = { 36 100 122 }
+				color2 = { 255 255 255 }
+
+				b_sanngijuq = {
+				}
+				b_taimq = {
+				}
+				b_kalliq = {
+				}
+			}
+			c_asavara = { # 556
+				color = { 45 110 131 }
+				color2 = { 255 255 255 }
+
+				b_asavara = {
+				}
+				b_kaniqpaq = {
+				}
+				b_nuliakka = {
+				}
+			}
+		}
+	}
+	k_southern_water_tribe = {
+		color = { 76 122 214 }
+		color2 = { 255 255 255 }
+
+		capital = 20 # c_southen_water_tribe
+		culture = southern_water
+
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					ai = no
+					culture_group = water_tribe_culture
+				}
+			}
+		}
+
+		d_southen_water_tribe = {
+			color = { 246 160 250 }
+			color2 = { 255 255 255 }
+
+			capital = 20 # c_southen_water_tribe
+
+			c_southen_water_tribe = { # 20
+				color = { 0 150 255 }
+				color2 = { 255 255 255 }
+
+				holy_site = southern_spirituality
+				holy_site = southern_spirituality_reformed
+				holy_site = tui_and_la
+				holy_site = tui_and_la_reformed
+				holy_site = anarchism
+				holy_site = anarchism_reformed
+				holy_site = equalism
+				holy_site = equalism_reformed
+
+				b_southen_water_tribe = {
+				}
+				b_miagortok = {
+				}
+				b_tireganierk = {
+				}
+				b_sitiyok = {
+				}
+			}
+			c_sufauraaqtaaq = { # 21
+				color = { 48 125 179 }
+				color2 = { 255 255 255 }
+
+				b_sufauraaqtaaq_aniu = {
+				}
+				b_surusiq = {
+				}
+				b_miraaluk = {
+				}
+			}
+			c_ufalak = { # 22
+				color = { 35 96 139 }
+				color2 = { 255 255 255 }
+
+				b_ufalak_puviaq = {
+				}
+				b_ikkuma = {
+				}
+				b_kappianartok = {
+				}
+			}
+		}
+		d_kangerdluk = {
+			color = { 45 121 203 }
+			color2 = { 255 255 255 }
+
+			capital = 23 # c_muqpaktuq
+
+			c_muqpaktuq = { # 23
+				color = { 35 131 198 }
+				color2 = { 255 255 255 }
+
+				b_muqpaktuq = {
+				}
+				b_tunnu = {
+				}
+				b_saglunerk = {
+				}
+				b_padlakpok = {
+				}
+				b_ublarortok = {
+				}
+			}
+			c_kiibuyat = { # 25
+				color = { 72 121 156 }
+				color2 = { 255 255 255 }
+
+				b_kiibuyat = {
+				}
+				b_unayok = {
+				}
+				b_nutagak = {
+				}
+			}
+			c_misuitchuq = { # 24
+				color = { 27 111 170 }
+				color2 = { 255 255 255 }
+
+				b_misuitchuq_puviaq = {
+				}
+				b_kringmerk = {
+				}
+				b_issorartuyok = {
+				}
+			}
+		}
+		d_ikuma = {
+			color = { 31 143 178 }
+			color2 = { 255 255 255 }
+
+			capital = 26 # c_south_pole
+
+			c_south_pole = { # 26
+				color = { 53 101 135 }
+				color2 = { 255 255 255 }
+
+				holy_site = southern_spirituality
+				holy_site = southern_spirituality_reformed
+				holy_site = tui_and_la
+				holy_site = tui_and_la_reformed
+				holy_site = vaatuism
+				holy_site = vaatuism_reformed
+
+				b_south_pole = {
+				}
+				b_mitiq = {
+				}
+			}
+			c_atauhiq = { # 565
+				color = { 36 123 178 }
+				color2 = { 255 255 255 }
+
+				b_nunatsiavumiut = {
+				}
+				b_qikiqtaluk = {
+				}
+				b_kalaalisut = {
+				}
+			}
+			c_quana = { # 566
+				color = { 23 106 174 }
+				color2 = { 255 255 255 }
+
+				b_natsilingmiut = {
+				}
+				b_kivallirminiut = {
+				}
+				b_aivilmmiutut = {
+				}
+			}
+		}
+		d_qianbaq_aniu = {
+			color = { 104 105 134 }
+			color2 = { 255 255 255 }
+
+			capital = 564 # c_nunavut
+
+			c_qatiqtuq = { # 29
+				color = { 89 137 170 }
+				color2 = { 255 255 255 }
+
+				holy_site = southern_spirituality
+				holy_site = southern_spirituality_reformed
+
+				b_qatiqtuq = {
+				}
+				b_mominguarpok = {
+				}
+				b_qinarluk = {
+				}
+			}
+			c_qiki = { # 30
+				color = { 37 110 161 }
+				color2 = { 255 255 255 }
+
+				b_qikiqtasugruk = {
+				}
+				b_ublureak = {
+				}
+				b_nurrapuq_1 = {
+				}
+			}
+			c_nunavut = { # 564
+				color = { 20 116 184 }
+				color2 = { 255 255 255 }
+
+				b_avanersuaq = {
+				}
+				b_ublaakun = {
+				}
+				b_qanuritpin = {
+				}
+			}
+			c_ublaami = { # 562
+				color = { 19 105 163 }
+				color2 = { 255 255 255 }
+
+				b_ukiuk = {
+				}
+				b_tiriganiaq = {
+				}
+				b_nurrapuq = {
+				}
+			}
+		}
+		d_aqaqpaa = {
+			color = { 52 111 145 }
+			color2 = { 255 255 255 }
+
+			capital = 28 # c_imnaq
+
+			c_qixak = { # 27
+				color = { 94 115 129 }
+				color2 = { 255 255 255 }
+
+				b_qixak_natibviksuq = {
+				}
+				b_taggarik = {
+				}
+				b_tuqusiuraqpuq = {
+				}
+			}
+			c_imnaq = { # 28
+				color = { 38 95 135 }
+				color2 = { 255 255 255 }
+
+				b_imnaq = {
+				}
+				b_momerpok = {
+				}
+				b_qiqumajug = {
+				}
+			}
+			c_inupiatun = { # 563
+				color = { 17 123 159 }
+				color2 = { 255 255 255 }
+
+				b_ila = {
+				}
+				b_aullutuq = {
+				}
+				b_gagurtug = {
+				}
+			}
+		}
+	}
+}
+#######################################
+# Merchant Republics Titular Duchies###
+#######################################
+#Nantu
+d_nah = {
+	color = { 57 202 62 }
+	color2 = { 255 255 255 }
+}
+
+d_day = {
+	color = { 89 223 94 }
+	color2 = { 255 255 255 }
+}
+
+d_tong = {
+	color = { 9 50 11 }
+	color2 = { 255 255 255 }
+}
+
+d_taki = {
+	color = { 239 232 19 }
+	color2 = { 255 255 255 }
+}
+
+d_daimahn = {
+	color = { 44 148 0 }
+	color2 = { 255 255 255 }
+}
+
+d_yamayoko = {
+	color = { 103 134 90 }
+	color2 = { 255 255 255 }
+}
+d_tongdoa = {
+	color = { 104 129 58 }
+	color2 = { 255 255 255 }
+}
+########################
+# Merchant Republics ###
+########################
+
+#Penghu Island:
+b_nakamamura = {
+	culture = fire_islander
+	religion = fire_spirituality
+}
+
+b_lowe = {
+	culture = fire_islander
+	religion = fire_spirituality
+}
+
+b_loh_1 = {
+	culture = fire_islander
+	religion = fire_spirituality
+}
+
+b_dalaw_1 = {
+	culture = fire_islander
+	religion = fire_spirituality
+}
+
+b_law = {
+	culture = fire_islander
+	religion = fire_spirituality
+}
+
+#Badaji:
+b_okadakada = {
+	culture = northern_earth
+	religion = earth_spirituality
+}
+
+b_limlo_1 = {
+	culture = northern_earth
+	religion = earth_spirituality
+}
+
+b_limlum = {
+	culture = northern_earth
+	religion = earth_spirituality
+}
+
+b_lor = {
+	culture = northern_earth
+	religion = earth_spirituality
+}
+
+b_lum = {
+	culture = northern_earth
+	religion = earth_spirituality
+}
+
+#nanchang
+b_morita = {
+	culture = eastern_earth
+	religion = earth_spirituality
+}
+
+b_pwah = {
+	culture = eastern_earth
+	religion = earth_spirituality
+}
+
+b_ecchi = {
+	culture = eastern_earth
+	religion = earth_spirituality
+}
+
+b_dengan = {
+	culture = eastern_earth
+	religion = earth_spirituality
+}
+
+b_jii = {
+	culture = eastern_earth
+	religion = earth_spirituality
+}
+#mojiang
+b_syun = {
+	culture = southern_earth
+	religion = earth_spirituality
+}
+b_yua = {
+	culture = southern_earth
+	religion = earth_spirituality
+}
+b_hetaimochi = {
+	culture = southern_earth
+	religion = earth_spirituality
+}
+b_rube = {
+	culture = southern_earth
+	religion = earth_spirituality
+}
+b_tati = {
+	culture = southern_earth
+	religion = earth_spirituality
+}
+#gaoling
+b_beifong = {
+	culture = southern_earth
+	religion = earth_spirituality
+}
+
+b_leaochea = {
+	culture = southern_earth
+	religion = earth_spirituality
+}
+
+b_cen = {
+	culture = southern_earth
+	religion = earth_spirituality
+}
+
+b_lieu = {
+	culture = southern_earth
+	religion = earth_spirituality
+}
+
+b_kukorin = {
+	culture = southern_earth
+	religion = earth_spirituality
+}
+#nantou
+b_wuxi = {
+	culture = earth_islander
+	religion = earth_spirituality
+}
+
+b_kia = {
+	culture = earth_islander
+	religion = earth_spirituality
+}
+
+b_wai = {
+	culture = earth_islander
+	religion = earth_spirituality
+}
+
+b_xiaxia = {
+	culture = earth_islander
+	religion = earth_spirituality
+}
+
+b_haha = {
+	culture = earth_islander
+	religion = earth_spirituality
+}
+#nan day
+b_chu = {
+	culture = eastern_earth
+	religion = earth_spirituality
+}
+b_kemi = {
+	culture = eastern_earth
+	religion = earth_spirituality
+}
+b_iwata = {
+	culture = eastern_earth
+	religion = earth_spirituality
+}
+b_tenge = {
+	culture = eastern_earth
+	religion = earth_spirituality
+}
+b_tigre = {
+	culture = eastern_earth
+	religion = earth_spirituality
+}
+#yonaguni
+b_wang = {
+	culture = earth_islander
+	religion = earth_spirituality
+}
+b_xasa = {
+	culture = earth_islander
+	religion = earth_spirituality
+}
+b_yamato = {
+	culture = earth_islander
+	religion = earth_spirituality
+}
+b_fujiwara = {
+	culture = earth_islander
+	religion = earth_spirituality
+}
+b_taira = {
+	culture = earth_islander
+	religion = earth_spirituality
+}
+#tongdoa
+b_chen = { #
+	culture = southern_earth
+	religion = earth_spirituality
+}
+b_raj = {
+	culture = southern_earth
+	religion = earth_spirituality
+}
+b_taj = {
+	culture = southern_earth
+	religion = earth_spirituality
+}
+b_cuco = {
+	culture = southern_earth
+	religion = earth_spirituality
+}
+b_gi = {
+	culture = southern_earth
+	religion = earth_spirituality
+}
+#feihe
+b_kaneko = {
+	culture = pirate
+	religion = piracy
+}
+b_shih = {
+	culture = pirate
+	religion = piracy
+}
+b_barbarossa = {
+	culture = pirate
+	religion = piracy
+}
+b_teach = {
+	culture = pirate
+	religion = piracy
+}
+b_zhilong = {
+	culture = pirate
+	religion = piracy
+}
+#taki
+b_tonh_1 = {
+	culture = fire_nation
+	religion = fire_spirituality
+}
+b_tchrump = {
+	culture = fire_nation
+	religion = fire_spirituality
+}
+b_pander = {
+	culture = fire_nation
+	religion = fire_spirituality
+}
+b_chimpon = {
+	culture = fire_nation
+	religion = fire_spirituality
+}
+b_kruz = {
+	culture = fire_nation
+	religion = fire_spirituality
+}
+#daishan
+b_kori = {
+	culture = western_earth
+	religion = earth_spirituality
+}
+b_fengxian = {
+	culture = western_earth
+	religion = earth_spirituality
+}
+b_shao = {
+	culture = western_earth
+	religion = earth_spirituality
+}
+b_zwha = {
+	culture = western_earth
+	religion = earth_spirituality
+}
+b_guanzhong = {
+	culture = western_earth
+	religion = earth_spirituality
+}
+#long'a
+b_yamayoko = {
+	culture = western_earth
+	religion = earth_spirituality
+}
+b_diaochan = {
+	culture = western_earth
+	religion = earth_spirituality
+}
+b_bing = {
+	culture = western_earth
+	religion = earth_spirituality
+}
+b_kuwan = {
+	culture = western_earth
+	religion = earth_spirituality
+}
+b_hotso = {
+	culture = western_earth
+	religion = earth_spirituality
+
+}
+####
+##Heccin dai li
+####
+d_dai_li = {
+	color={ 99 186 90 }
+	color2={ 255 255 255 }
+
+	capital = 133 # Lake
+
+	title = "GRAND_SECRETARIAT"
+	foa = "GRAND_SECRETARIAT_FOA"
+	short_name = yes
+	mercenary_type = daili_composition
+
+	# Always exists
+	#landless = yes
+	holy_order = yes
+	controls_religion = ba_sing_se_cultural_heritage
+	
+	religion = ba_sing_se_cultural_heritage
+	culture = ba_sing_se
+
+	# Cannot be held as a secondary title
+	primary = yes
+
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}

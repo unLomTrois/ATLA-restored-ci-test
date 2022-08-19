@@ -1,0 +1,15 @@
+# c_yizhidifang
+
+# County Title
+title = c_yizhidifang
+
+# Settlements
+max_settlements = 3
+
+b_yizhidifang = tribal
+
+# Misc
+culture = sandbender_culture
+religion = children_of_si_wong
+
+#History

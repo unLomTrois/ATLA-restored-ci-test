@@ -1,0 +1,286 @@
+# Sandbender Events #
+
+namespace = sand
+
+narrative_event = {
+	id = sand.1
+	picture = GFX_evt_wanshi_desert
+	major = yes
+	is_triggered_only = yes
+
+	title = SIWONGANNOUNCETITLE
+	desc = {
+		trigger = {
+			#Conditions for 1st description to be chosen
+			OR = {
+				culture = sandbender_culture
+				religion = children_of_si_wong
+			}
+		}
+
+		# Sandbenders get this
+		text = SIWONGANNOUNCESAND
+	}
+
+	desc = {
+		trigger = {
+			#Conditions for 2nd description to be chosen
+			NOT = {
+				culture = sandbender_culture
+				religion = children_of_si_wong
+			}
+		}
+
+		# Everyone else
+		text = SIWONGANNOUNCEABROAD
+	}
+
+	option = {
+		name = {
+			text = SIWONGSAND
+			trigger = {
+				OR = {
+					culture = sandbender_culture
+					religion = children_of_si_wong
+				}
+			}
+		}
+
+		name = {
+			text = SIWONGEARTHKING
+			trigger = {
+				OR = {
+					trait = earthking
+					trait = earthkingpuppet
+					has_landed_title = e_earth_kingdom
+					# has_landed_title = e_earthen_republic
+					has_landed_title = e_earth_empire
+					de_jure_liege_or_above = e_earth_kingdom
+				}
+				NOT = {
+					religion = children_of_si_wong
+					culture = sandbender_culture
+				}
+			}
+		}
+
+		name = {
+			text = SIWONGFIRE
+			trigger = {
+				OR = {
+					has_landed_title = k_fire_nation
+					has_landed_title = e_fire_nation
+					has_landed_title = e_phoenix_kingdom
+					trait = firelord
+					religion = fire_nation_imperialism
+				}
+			}
+		}
+
+		name = {
+			text = SIWONGALLELSE
+			trigger = {
+				NOT = {
+					culture = sandbender_culture
+					religion = children_of_si_wong
+				}
+			}
+		}
+	}
+
+	option = {
+		trigger = {
+			OR = {
+				culture = sandbender_culture
+				religion = children_of_si_wong
+			}
+		}
+
+		name = NEEDSMORESAND
+		prestige = 1
+	}
+
+	option = {
+		trigger = {
+			NOT = {
+				culture = sandbender_culture
+				religion = children_of_si_wong
+			}
+		}
+
+		name = SIWONGALLELSE
+	}
+}
+##################################ALL NEW STUFF FROM DOMAXS############################
+# character_event = {
+	# id = sand.2
+	# is_triggered_only = yes
+	# hide_window = yes
+	
+	# trigger = {
+	# }
+	
+	# option = {
+		# random_character = {
+			# limit = {
+				# culture = sandbender_culture
+				# trait = sandbender
+				# ai = yes
+				# is_adult = yes
+				# NOT = { trait = sand_sailer }
+			# }
+			# add_trait = sand_sailer
+		# }
+	# }
+# }
+character_event = { #gives c_wuzunzhen Gauntlet modifier
+	id = sand.4
+	is_triggered_only = yes
+	hide_window = yes
+	
+	trigger = {
+	}
+	
+	option = {
+		299 = {
+			add_province_modifier = {
+				name = gauntlet_modifier
+				duration = -1
+			}
+		}
+	}
+}
+
+###################SAND SAILER RACERS POWER EVENTS##########################
+
+character_event = {
+	id = sand.10
+	desc = EVTDESC_sand.10
+	is_triggered_only = yes
+	picture = GFX_evt_wanshi_desert
+	border = GFX_event_normal_frame_diplomacy
+	
+	option = {
+		name = EVTOPTA_sand.10
+		add_trait = travelling
+		character_event = { id = sand.11 days = 10 }
+	}
+}
+
+character_event = {
+	id = sand.11
+	desc = EVTDESC_sand.11
+	is_triggered_only = yes
+	#picture = 
+	border = GFX_event_normal_frame_diplomacy
+	
+	option = {
+		name = EVTOPTA_sand.11
+		character_event = { id = SANDR.1044 days = 1}
+	}
+}
+
+character_event = {
+	id = sand.12
+	desc = EVTDESC_sand.12
+	is_triggered_only = yes
+	#picture = 
+	border = GFX_event_normal_frame_diplomacy
+	
+	option = {
+		name = EVTOPTA_sand.12
+		remove_trait = travelling
+		clr_character_flag = running_gauntlet
+		clr_character_flag = gauntlet_minor_cd
+		clr_character_flag = wood_test_run
+		clr_character_flag = razor_rock_stretch
+		clr_character_flag = sand_stretch
+		clr_character_flag = rock_canyon
+		clr_character_flag = did_razor_rock_stretch
+		clr_character_flag = did_sand_stretch
+		clr_character_flag = did_rock_canyon
+		prestige = 5
+		add_character_modifier = {
+			name = gauntlet_cd
+			months = 8
+			hidden = yes
+		}
+		add_character_modifier = {
+			name = ran_gauntlet
+			months = 3
+			hidden = no
+		}
+	}
+}
+
+character_event = {
+	id = sand.13
+	desc = EVTDESC_sand.13
+	is_triggered_only = yes
+	#picture = 
+	border = GFX_event_normal_frame_diplomacy
+	
+	option = {
+		name = EVTOPTA_sand.13
+		remove_trait = travelling
+		clr_character_flag = running_gauntlet
+		clr_character_flag = gauntlet_minor_cd
+		clr_character_flag = wood_test_run
+		clr_character_flag = razor_rock_stretch
+		clr_character_flag = sand_stretch
+		clr_character_flag = rock_canyon
+		clr_character_flag = did_razor_rock_stretch
+		clr_character_flag = did_sand_stretch
+		clr_character_flag = did_rock_canyon
+		random = {
+			chance = 15
+			add_trait = wounded
+		}
+		add_character_modifier = {
+			name = gauntlet_cd
+			months = 8
+			hidden = yes
+		}
+		add_character_modifier = {
+			name = failed_gauntlet
+			months = 3
+			hidden = no
+		}
+	}
+}
+
+character_event = {
+	id = sand.14
+	desc = EVTDESC_sand.14
+	is_triggered_only = yes
+	#picture =
+	border = GFX_event_normal_frame_diplomacy
+	
+	option = {
+		name = EVTOPTA_sand.14
+		remove_trait = sand_racer
+		add_trait = sand_racer_legend
+		prestige = 50
+	}
+}
+
+character_event = {   #gives SSR members sand racer trait on start
+	id = sand.15
+	is_triggered_only = yes
+	hide_window = yes 
+	
+	option = {
+		any_character = {
+			limit = {
+				society_member_of = sand_sailer_racers
+			}
+			add_trait = sand_racer
+			if = {
+				limit = {
+					trait = sand_sailer
+				}
+				remove_trait = sand_sailer
+			}
+		}
+	}
+}

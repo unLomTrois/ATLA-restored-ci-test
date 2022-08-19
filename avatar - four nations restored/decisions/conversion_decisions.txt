@@ -1,0 +1,324 @@
+targetted_decisions = {
+
+	ask_to_convert = {
+		filter = realm
+		ai_target_filter = realm
+
+		from_potential = {
+			is_ruler = yes
+			NOR = {
+				government = lawless_piracy
+				government = pirate_cartel
+			}
+		}
+
+		potential = {
+			NOR = {
+				religion = FROM
+				has_opinion_modifier = {
+					who = FROM
+					modifier = refused_decision
+				}
+			}
+			OR = {
+				host = { character = FROM }
+				liege = { character = FROM }
+			}
+			prisoner = no
+		}
+
+		allow = {
+			custom_tooltip = {
+				text = can_convert_via_decision
+				hidden_tooltip = {
+					OR = {
+						FROM = {
+							NOT = { religion = the_eternal_flame }
+						}
+						has_global_flag = eternal_flame_conversion_enabled
+					}
+				}
+			}
+			custom_tooltip = { # Will not convert to injust religion
+				text = will_not_convert_because_of_virtue
+				hidden_tooltip = {
+					OR = {
+						NOR = {
+							trait = kind
+							trait = charitable
+							trait = humble
+							trait = just
+						}
+						FROM = {
+							NOR = {
+								religion = fire_nation_imperialism
+								religion = nomadic_nihilism
+								religion = unificationism
+								religion = way_of_chin
+							}
+						}
+					}
+				}
+			}
+			custom_tooltip = { # Cultural differences
+				text = will_not_convert_because_of_culture
+				hidden_tooltip = {
+					NOR = {
+						religion = children_of_si_wong
+						religion = the_eternal_flame
+						religion = the_great_swamp
+					}
+				}
+			}
+			custom_tooltip = { # Zealous
+				text = will_not_convert_because_of_zeal
+				hidden_tooltip = {
+					NOT = { trait = zealous }
+				}
+			}
+			custom_tooltip = { # Does not like liege enough
+				text = will_not_convert_because_of_low_opinion
+				hidden_tooltip = {
+					opinion = {
+						who = FROM
+						value = 20
+					}
+				}
+			}
+			custom_tooltip = { # Accepted minority
+				text = will_not_convert_because_of_minority
+				hidden_tooltip = {
+					NOR = {
+						AND = {
+							FROM = { religion = fire_spirituality }
+							religion = bhanti_spirituality
+						}
+						AND = {
+							FROM = { religion = fire_nation_imperialism }
+							religion = bhanti_spirituality
+						}
+						AND = {
+							FROM = { religion = ba_sing_se_cultural_heritage }
+							religion = earth_spirituality
+						}
+					}
+				}
+			}
+			custom_tooltip = { # Will not surrender ideals
+				text = will_not_convert_because_of_religion
+				hidden_tooltip = {
+					OR = {
+						AND = {
+							religion = air_spirituality
+							NAND = {
+								trait = kind
+								trait = temperate
+								trait = just
+								trait = enlightened
+							}
+						}
+						NOT = { religion = air_spirituality }
+					}
+					OR = {
+						AND = {
+							religion = the_eternal_flame
+							NAND = {
+								trait = kind
+								trait = temperate
+								trait = just
+								trait = enlightened
+								trait = brave
+								trait = content
+							}
+						}
+						NOT = { religion = the_eternal_flame  }
+					}
+					OR = {
+						AND = {
+							religion = followers_of_kyoshi
+							NOT = { trait = kyoshiwarrior }
+						}
+						NOT = { religion = followers_of_kyoshi }
+					}
+					NOR = {
+						trait = avatar
+						trait = fullyrealisedavatar
+						trait = uninterested
+					}
+				}
+			}		
+			OR = { # Reason to convert
+				custom_tooltip = { # Likes liege
+					text = will_convert_because_likes_liege
+					hidden_tooltip = {
+						opinion = { who = FROM value = 90 }
+					}
+				}
+				custom_tooltip = { # Dare not refuse
+					text = will_convert_because_cannot_refuse
+					hidden_tooltip = {
+						dynasty = none
+					}
+				}
+				custom_tooltip = { # Will convert because of shared Dynasty
+					text = will_convert_because_of_kin
+					hidden_tooltip = {
+						dynasty = FROM
+					}
+				}
+				custom_tooltip = { # Likes ideals
+					text = will_convert_because_likes_religion
+					hidden_tooltip = {
+						OR = {
+							AND = {
+								OR = {
+									FROM = { religion = fire_nation_imperialism }
+									FROM = { religion = way_of_chin }
+								}
+								OR = {
+									trait = ambitious
+									trait = deceitful
+									trait = cruel
+									trait = greedy
+									trait = envious
+									trait = wroth
+									trait = proud
+								}
+							}
+							AND = {
+								FROM = { religion = nomadic_nihilism }
+								religion = air_spirituality
+								trait = cynical
+							}
+							AND = {
+								FROM = { religion = nomadic_nihilism }
+								religion = air_spirituality
+								trait = kind
+							}
+							AND = {
+								FROM = { religion = fortune_telling }
+								trait = trusting
+							}
+							AND = {
+								FROM = { religion = children_of_si_wong }
+								culture = sandbender_culture
+							}
+							AND = {
+								FROM = { religion = southern_spirituality }
+								culture = southern_water
+							}
+							AND = {
+								FROM = { religion = tui_and_la }
+								culture = northern_water
+							}
+							AND = {
+								FROM = { religion = air_spirituality }
+								OR = {
+									trait = kind
+									trait = enlightened
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
+		effect = {
+			character_event = { id = ATLA.104 }
+		}
+
+		revoke_allowed = {
+			always = no
+		}
+
+		ai_will_do = {
+			factor = 0.01
+			modifier = {
+				factor = 5 # Zealous
+				FROM = { trait = zealous }
+			}
+			modifier = {
+				factor = 5 # Same Dynasty
+				dynasty = FROM
+			}
+			modifier = {
+				factor = 5 # Convert lowborns
+				dynasty = none
+			}
+			modifier = {
+				factor = 5 # Convert courtiers
+				is_landed = no
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					trait = avatar
+					trait = fullyrealisedavatar
+				}
+			}
+		}
+	}
+
+	convert_to_spouse_religion= {
+		only_playable = yes
+		filter = home_court
+		ai_target_filter = home_court
+		ai_check_interval = 60
+
+		from_potential = {
+			ai = no
+			is_playable = yes
+			controls_religion = no
+		}
+
+		potential = {
+			NOT = { religion = FROM }
+			OR = {
+				spouse = {
+					character = FROM
+				}
+				consort = {
+					character = FROM
+				}
+			}
+			OR = {
+				religion_group = earth_religions
+				religion_group = water_religions
+				religion_group = fire_religions
+				religion_group = air_religions
+			}
+			is_alive = yes
+		}
+
+		allow = {
+			FROM = { NOT = { trait = zealous } }
+		}
+
+		effect = {
+			FROM = {
+				prestige = -500
+				religion_authority = {
+					modifier = ruler_converted_from
+				}
+
+				religion = ROOT
+
+				hidden_tooltip = {
+					religion_authority = {
+						modifier = ruler_converted_to
+					}
+				}
+				piety = 200
+			}
+		}
+
+		revoke_allowed = {
+			always = no
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

@@ -1,0 +1,86 @@
+513.7.25 = {
+	holder = 12162
+	law = enatic_succession
+	law = status_of_women_4
+	law = succ_air_nomad_elective
+	law = law_voting_power_1
+	law = war_voting_power_1
+	law = revoke_title_voting_power_1
+	law = imprison_voting_power_1
+	law = grant_title_voting_power_1
+	law = banish_voting_power_1 
+	law = execution_voting_power_1
+}
+577.9.2 = {
+	holder = 12165
+}
+625.9.12 = {
+	holder = 12170
+}
+685.4.18 = {
+	holder = 12173
+}
+737.1.21 = {
+	holder = 12182
+}
+779.10.22 = {
+	holder = 12186
+}
+825.5.9 = {
+	holder = 12190
+}
+830.3.13 = {
+	holder = 12193
+	law = succ_primogeniture
+	liege = 0
+	effect = {
+		location = {
+			add_province_modifier =  { 
+				name = air_nomad_genocide_3
+				years = 100
+			}
+		}
+	}
+}
+870.1.1 = {
+	effect = {
+		location = {
+			remove_province_modifier = air_nomad_genocide_3
+			add_province_modifier =  { 
+				name = air_nomad_genocide_2
+				years = 60
+			}
+		}
+	}
+}
+887.9.16 = {
+	holder = 12196
+}
+910.1.1 = {
+	effect = {
+		location = {
+			remove_province_modifier = air_nomad_genocide_2
+			add_province_modifier =  { 
+				name = air_nomad_genocide_1
+				years = 20
+			}
+		}
+	}
+}
+933.7.21 = {
+	holder = 12202
+	law = true_cognatic_succession
+	liege = "e_air_nomads"
+	effect = {
+		location = {
+			remove_province_modifier = air_nomad_genocide_1
+			add_province_modifier =  { 
+				name = air_nomads_restored
+				years = 10
+			}
+		}
+	}
+}
+996.1.1 = {
+	holder = 12209
+}

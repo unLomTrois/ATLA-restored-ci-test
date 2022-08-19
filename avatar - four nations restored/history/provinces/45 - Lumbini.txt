@@ -1,0 +1,27 @@
+# c_lumbini
+
+# County Title
+title = c_lumbini
+
+# Settlements
+max_settlements = 2
+
+b_lumbini = temple
+#b_dartsedo = city
+
+# Misc
+culture = eastern_air_nomad
+religion = air_spirituality
+terrain = mountain
+
+#History
+830.3.13 = { 
+	religion = earth_spirituality 
+	culture = earth_islander 
+	b_lumbini = tribal 
+}
+933.7.21 = { 
+	religion = air_acolytism 
+	culture = air_acolytes 
+	b_lumbini = temple 
+}

@@ -1,0 +1,24 @@
+# c_luzhou
+
+# County Title
+title = c_luzhou
+
+# Settlements
+max_settlements = 3
+
+b_luzhou = tribal
+#b_tugeqi = city
+#b_sayibage = temple
+
+# Misc
+culture = sandbender_culture
+religion = children_of_si_wong
+
+#History
+400.1.1 = { build_wonder = misty_palms_oasis }
+410.5.2 = { set_wonder_stage = 1}
+450.8.10 = { set_wonder_stage = 2}
+713.2.1 = { b_sayibage = temple }
+946.3.4 = { religion = omashuan_ethics }
+946.3.4 = { culture = western_earth }
+946.3.4 = { b_tugeqi = city }

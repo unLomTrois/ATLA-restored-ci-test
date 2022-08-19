@@ -1,0 +1,27 @@
+# c_xainza
+
+# County Title
+title = c_xainza
+
+# Settlements
+max_settlements = 3
+
+b_gampo = temple
+#b_drongnyen = city
+#b_me = temple
+
+# Misc
+culture = northern_air_nomad
+religion = air_spirituality
+
+#History
+830.4.18 = { 
+	religion = earth_spirituality 
+	culture = northern_earth 
+	b_gampo = tribal 
+}
+977.2.10 = { 
+	religion = air_acolytism 
+	culture = air_acolytes 
+	b_gampo = temple 
+}

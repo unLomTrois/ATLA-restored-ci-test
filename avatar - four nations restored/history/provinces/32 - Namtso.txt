@@ -1,0 +1,28 @@
+# c_namtso
+
+# County Title
+title = c_namtso
+
+# Settlements
+max_settlements = 2
+
+b_namtso = temple
+#b_tarim = city
+
+# Misc
+culture = southern_air_nomad
+religion = air_spirituality
+
+#History
+830.2.13 = { 
+	religion = earth_spirituality
+	culture = earth_islander
+	b_namtso = tribal 
+}
+857.5.5 = { b_tarim = temple }
+934.8.14 = { 
+	religion = air_acolytism
+	culture = air_acolytes 
+	b_namtso = temple 
+	b_tarim = castle 
+}

@@ -1,0 +1,6 @@
+object = {
+		type = "fournations_frame"
+		position = { 0.000 -12.00 0.000 }
+		rotation = { 0.000 0.000 0.000 }
+		scale = 253.498
+	}

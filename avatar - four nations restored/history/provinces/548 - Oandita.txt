@@ -1,0 +1,26 @@
+# c_oandita
+
+# County Title
+title = c_oandita
+
+# Settlements
+max_settlements = 2
+
+b_oandita = temple
+#b_norsana = city
+
+# Misc
+culture = eastern_air_nomad
+religion = air_spirituality
+
+#History
+830.3.13 = { 
+	religion = earth_spirituality 
+	culture = earth_islander 
+	b_oandita = tribal 
+}
+933.7.21 = { 
+	religion = air_acolytism 
+	culture = air_acolytes 
+	b_oandita = temple 
+}

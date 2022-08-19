@@ -1,0 +1,32 @@
+# c_chonden
+
+# County Title
+title = c_chonden
+
+# Settlements
+max_settlements = 3
+
+b_tsering = temple
+#b_konchok = city
+#b_chonden = temple
+
+# Misc
+culture = southern_air_nomad
+religion = air_spirituality
+
+#History
+830.2.13 = { 
+	religion = earth_spirituality 
+	culture = earth_islander 
+	b_tsering = tribal 
+}
+888.2.21 = { 
+	b_konchok = temple 
+	b_chonden = temple 
+}
+934.8.14 = { 
+	religion = air_acolytism 
+	culture = air_acolytes 
+	b_tsering = temple 
+	b_konchok = city 
+}

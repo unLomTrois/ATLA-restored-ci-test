@@ -1,0 +1,54 @@
+492.3.3 = {
+	holder = 120
+	law = succ_gavelkind
+	law = cognatic_succession
+	law = law_voting_power_1
+	law = war_voting_power_1
+}
+535.8.20 = {
+	holder = 122
+}
+562.2.1 = {
+	holder = 124
+}
+574.3.30 = {
+	holder = 125
+}
+586.10.3 = {
+	holder = 129
+}
+601.4.14 = {
+	holder = 130
+}
+637.7.29 = {
+	holder = 132
+}
+701.7.7 = {
+	holder = 133
+}
+712.5.8 = {
+	holder = 134
+}
+777.7.7 = {
+	holder = 136
+}
+802.2.8 = {
+	holder = 138
+}
+836.11.1 = {
+	holder = 92
+	law = succ_primogeniture
+	law = true_cognatic_succession
+}
+849.8.14 = {
+	holder = 91
+}
+878.3.14 = {
+	holder = 88
+}
+915.7.3 = {
+	holder = 89
+}
+979.3.12 = {
+	holder = 44517
+}

@@ -1,0 +1,24 @@
+# c_longa
+
+# County Title
+title = c_longa
+
+# Settlements
+max_settlements = 4
+
+b_longa = city
+b_maokai = temple
+b_dragons_gate = castle
+#b_tailin = city
+
+# Misc
+culture = western_earth
+religion = earth_spirituality
+
+#History
+#834.2.13 = { religion = fire_nation_imperialism }
+#834.2.13 = { culture = colonial }
+#930.8.26 = { religion = earth_spirituality }
+#930.8.26 = { culture = western_earth }
+#834.2.13 = { b_longa = city }
+1003.9.16 = { religion = unificationism }

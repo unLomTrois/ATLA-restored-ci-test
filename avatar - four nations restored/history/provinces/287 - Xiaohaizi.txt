@@ -1,0 +1,16 @@
+# c_xiaohaizi
+
+# County Title
+title = c_xiaohaizi
+
+# Settlements
+max_settlements = 2 #add to 3 later
+
+b_dongnikeng = tribal
+b_xishiwo = temple
+
+# Misc
+culture = sandbender_culture
+religion = children_of_si_wong
+
+#History

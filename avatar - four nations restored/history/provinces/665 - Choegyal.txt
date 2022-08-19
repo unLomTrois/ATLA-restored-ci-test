@@ -1,0 +1,29 @@
+# c_choegyal
+
+# County Title
+title = c_choegyal
+
+# Settlements
+max_settlements = 2
+
+b_choegyal = temple
+#b_pandita = city
+
+# Misc
+culture = southern_air_nomad
+religion = air_spirituality
+terrain = hills
+
+#History
+830.2.13 = { 
+	religion = earth_spirituality 
+	culture = earth_islander 
+	b_choegyal = tribal 
+}
+888.2.21 = { b_pandita = temple }
+934.8.14 = { 
+	religion = air_acolytism 
+	culture = air_acolytes 
+	b_choegyal = temple 
+	b_pandita = city 
+}

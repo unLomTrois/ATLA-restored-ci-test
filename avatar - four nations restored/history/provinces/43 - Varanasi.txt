@@ -1,0 +1,26 @@
+# c_varanasi
+
+# County Title
+title = c_varanasi
+
+# Settlements
+max_settlements = 2
+
+b_sarnath = temple
+#b_varanasi = city
+
+# Misc
+culture = eastern_air_nomad
+religion = air_spirituality
+
+#History
+830.3.13 = { 
+	religion = earth_spirituality 
+	culture = earth_islander 
+	b_sarnath = tribal 
+}
+933.7.21 = { 
+	religion = air_acolytism 
+	culture = air_acolytes 
+	b_sarnath = temple 
+}

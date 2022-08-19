@@ -1,0 +1,27 @@
+# c_sambhota
+
+# County Title
+title = c_sambhota
+
+# Settlements
+max_settlements = 2
+
+b_drakpa = temple
+b_tsogyal = temple
+
+# Misc
+culture = southern_air_nomad
+religion = nomadic_nihilism
+
+#History
+685.4.25 = { b_tsogyal = temple }
+830.2.13 = { 
+	b_drakpa = tribal 
+	religion = earth_spirituality 
+	culture = earth_islander 
+}
+934.8.14 = { 
+	b_drakpa = temple
+	religion = air_acolytism 
+	culture = air_acolytes 
+}

@@ -1,0 +1,29 @@
+# c_kangaroo_tip
+
+# County Title
+title = c_kangaroo_tip
+
+# Settlements
+max_settlements = 2
+
+b_passang = temple
+#b_namtse = city
+
+# Misc
+culture = southern_air_nomad
+religion = air_spirituality
+terrain = mountain
+
+#History
+830.2.13 = { 
+	religion = earth_spirituality 
+	culture = earth_islander 
+	b_passang = tribal 
+	b_namtse = temple 
+}
+934.8.14 = { 
+	religion = air_acolytism 
+	culture = air_acolytes 
+	b_passang = temple 
+	b_namtse = city 
+}
